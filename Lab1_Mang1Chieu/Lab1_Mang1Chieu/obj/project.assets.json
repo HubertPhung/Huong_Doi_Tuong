@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu.csproj",
-      "projectName": "Lab1_Mang1Chieu",
-      "projectPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu.csproj",
+      "projectUniqueName": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu\\Bai_1.csproj",
+      "projectName": "Bai_1",
+      "projectPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu\\Bai_1.csproj",
       "packagesPath": "C:\\Users\\phung\\.nuget\\packages\\",
       "outputPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\Lab1_Mang1Chieu\\Lab1_Mang1Chieu\\obj\\",
       "projectStyle": "PackageReference",
