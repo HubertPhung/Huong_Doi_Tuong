@@ -6,6 +6,14 @@ Xuat(a);
 Console.WriteLine($"\nTong cua cac phan tu trong List la : {TinhTong(a)}");
 //2.2
 TinhTB(a);
+//2.3
+TimMAX(a);
+//2.4
+TimMIN(a);
+//2.5
+
+TimSoLanXuatHien(a);
+
 
 
 static void NhapMang(List<int> a)
@@ -47,3 +55,28 @@ static void TinhTB(List<int> a)
 }
 
 //2.3	Tìm giá trị lớn nhất trong danh sách.
+static void TimMAX(List<int> a)
+{
+    Console.WriteLine($"Gia Tri Lon Nhat La : {a.Max()}");
+}
+
+//2.4	Tìm giá trị nhỏ nhất trong danh sách.
+static void TimMIN(List<int> a)
+{
+    Console.WriteLine($"Gia Tri Nho Nhat La : {a.Min()}");
+}
+
+//2.5	Tìm số lần xuất hiện của một giá trị trong danh sách.
+static void TimSoLanXuatHien(List<int> a)
+{
+    int dem = 0;
+    Console.Write("Nhap So Can Tim So Lan Xuat Hien : ");
+    int x = Console.Read();
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] == x)
+            dem++;
+    }
+    Console.WriteLine($"So Lan Xuat Hien Cua {x} La : {dem}");
+
+}
