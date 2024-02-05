@@ -11,8 +11,17 @@ TimMAX(a);
 //2.4
 TimMIN(a);
 //2.5
-
-TimSoLanXuatHien(a);
+Console.Write("Nhap So Can Tim So Lan Xuat Hien : ");
+int x = int.Parse(Console.ReadLine());
+TimSoLanXuatHien(a,x);
+//2.6
+TinhTongSoAm(a);
+//2.7
+TinhTongSoDuong(a);
+//2.8
+DemSoChan(a);
+//2.9
+DemSoLe(a);
 
 
 
@@ -67,16 +76,61 @@ static void TimMIN(List<int> a)
 }
 
 //2.5	Tìm số lần xuất hiện của một giá trị trong danh sách.
-static void TimSoLanXuatHien(List<int> a)
+static void TimSoLanXuatHien(List<int> a, int x)
 {
     int dem = 0;
-    Console.Write("Nhap So Can Tim So Lan Xuat Hien : ");
-    int x = Console.Read();
     for (int i = 0; i < a.Count; i++)
     {
         if (a[i] == x)
             dem++;
     }
     Console.WriteLine($"So Lan Xuat Hien Cua {x} La : {dem}");
+}
 
+//2.6	Tính tổng các số âm trong danh sách.
+static void TinhTongSoAm(List<int> a)
+{
+    int temp = 0;
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] < 0)
+        temp += a[i];
+    }
+    Console.WriteLine($"Tinh Tong Cac So Am Trong Danh Sach La : {temp}");
+}
+
+//2.7	Tính tổng các số dương trong danh sách.
+static void TinhTongSoDuong(List<int> a)
+{
+    int temp = 0;
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] > 0)
+            temp += a[i];
+    }
+    Console.WriteLine($"Tinh Tong Cac So Duong Trong Danh Sach La : {temp}");
+}
+
+//2.8	Đếm số chẵn
+static void DemSoChan(List<int> a)
+{
+    int dem = 0;
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] % 2 == 0)
+            dem++;
+    }
+    Console.WriteLine($"So Chan Trong Danh Sach Co {dem} So");
+}
+
+//2.9	Đếm số lẽ
+static void DemSoLe(List<int> a)
+{
+    int dem = 0;
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (!(a[i] % 2 == 0))
+            dem++;
+    }
+    Console.WriteLine($"So Le Trong Danh Sach Co {dem} So");
 }
