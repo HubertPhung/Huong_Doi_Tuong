@@ -9,13 +9,14 @@ NhapNgauNhien(a);
 Xuat(a);
 a.Clear();
 // Doc File va Xuat File 
-DocFile(a);
+Console.Write("\nNhap ten file can doc (docfile.txt) : ");
+string x = Console.ReadLine();
+DocFile(a, x);
 Xuat(a);
-a.Clear();
+
 
 
 //List<int> a = new List<int> { 1, 2, 3, 4 , 5, 6 ,7 ,8};
-
 
 static void NhapMang(List<int> a)
 {
@@ -36,7 +37,7 @@ static void NhapNgauNhien(List<int> a)
     Random r = new Random();
     for (int i = 0; i < length; i++)
     {
-        a.Add(r.Next(10));
+        a.Add(r.Next(-100,101));
     }
 }
 
@@ -61,11 +62,10 @@ static void Xuat(List<int> a)
 //    }
 //}
 
-static void DocFile(List<int> a)
+static void DocFile(List<int> a, string x)
 {
 
-    Console.Write("\nNhap ten file can doc (docfile.txt) : ");
-     string x = Console.ReadLine();
+    
     StreamReader sr = new StreamReader(x);
     while((x = sr.ReadLine()) != null)
     {

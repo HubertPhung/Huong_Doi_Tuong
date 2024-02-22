@@ -1,0 +1,15 @@
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\bin\Debug\net8.0\Bai_4.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\bin\Debug\net8.0\Bai_4.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\bin\Debug\net8.0\Bai_4.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\bin\Debug\net8.0\Bai_4.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\bin\Debug\net8.0\Bai_4.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\refint\Bai_4.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\Bai_4.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Bai_4\obj\Debug\net8.0\ref\Bai_4.dll

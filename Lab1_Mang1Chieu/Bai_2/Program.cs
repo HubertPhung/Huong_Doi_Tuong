@@ -1,6 +1,6 @@
 ﻿List<int> a = new List<int>();
 // Nhập Xuất Mảng
-NhapMang(a);
+NhapNgauNhien(a);
 Xuat(a);
 //2.1
 Console.WriteLine($"\nTong cua cac phan tu trong List la : {TinhTong(a)}.");
@@ -27,14 +27,15 @@ DemSoLe(a);
 DemPhanTuX(a, x);
 
 
-static void NhapMang(List<int> a)
+static void NhapNgauNhien(List<int> a)
 {
-    Console.Write("Nhap so phan tu cua mang: ");
-    int n = int.Parse(Console.ReadLine());
-    for (int i = 0; i < n; i++)
+    int length = 0;
+    Console.Write("\nNhap vao chieu dai mang : ");
+    length = int.Parse(Console.ReadLine());
+    Random r = new Random();
+    for (int i = 0; i < length; i++)
     {
-        Console.Write("Nhap phan tu thu {0}: ", i);
-        a.Add(int.Parse(Console.ReadLine()));
+        a.Add(r.Next(-100, 101));
     }
 }
 
