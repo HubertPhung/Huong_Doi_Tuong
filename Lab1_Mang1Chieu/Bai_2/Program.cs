@@ -23,7 +23,6 @@ DemSoChan(a);
 //2.9
 DemSoLe(a);
 //2.10
-
 DemPhanTuX(a, x);
 
 

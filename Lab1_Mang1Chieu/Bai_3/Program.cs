@@ -3,26 +3,28 @@ List<int> a = new List<int>();
 NhapNgauNhien(a);
 Xuat(a);
 //3.1
-Console.WriteLine($"\nNhap So Can Kiem Tra: ");
-int x =int.Parse(Console.ReadLine());
-KtraX(a, x);
+Console.Write($"\nNhap So Can Kiem Tra: ");
+int q =int.Parse(Console.ReadLine());
+KtraX(a, q);
 //3.2
-Console.WriteLine("Nhap So Can Tim So Lan Xuat Hien : ");
+Console.Write("Nhap So Can Tim So Lan Xuat Hien : ");
 int s = int.Parse(Console.ReadLine());
 TimSoLanXuatHien(a, s);
 //3.3
-Console.WriteLine("Tim Tat Ca Cac Vi Tri Trong Phan Tu X : ");
-int f = int.Parse(Console.ReadLine());
-Console.Write("Vi Tri :");
-TimTatCaVtriCuaPhanTuX(a, f);
+Console.WriteLine("Vi Tri Cua Phan Tu X Trong Danh Sach :");
+TimTatCaVtriCuaPhanTuX(a, s);
 //3.4
-Console.WriteLine("\n");
+Console.WriteLine();
 TimVTDauTienList(a);
 //3.5
 TimVTCuoiCung(a);
 //3.6
-Console.WriteLine($"\nCac So Duong Trong Danh Sach La : ");
+Console.WriteLine($"\nCac So DUONG Trong Danh Sach La : ");
 TimVTSoDuong(a);
+//3.7
+Console.WriteLine($"\nCac So AM Trong Danh Sach La : ");
+TimVTSoAm(a);
+//3.8
 
 
 static void NhapNgauNhien(List<int> a)
@@ -41,24 +43,24 @@ static void Xuat(List<int> a)
 {
     foreach (int i in a)
     {
-        Console.Write($"{i}   ");
+        Console.Write($"{i}\t");
 
     }
 }
 
 
 //3.1	Kiểm tra phần tử x có chứa trong danh sách hay không
-static void KtraX(List<int> a, int x)
+static void KtraX(List<int> a, int q)
 {
     foreach (int i in a)
     {
-        if (i == x)
+        if (i == q)
         {
-            Console.WriteLine($"Phan Tu {x} Co Trong Danh Sach");
+            Console.WriteLine($"==> Phan Tu {q} Co Trong Danh Sach");
             return;
         }
     }
-    Console.WriteLine("Khong co  ");
+    Console.WriteLine("==> Khong co  ");
     return;
 }
 
@@ -71,16 +73,16 @@ static void TimSoLanXuatHien(List<int> a, int s)
         if (a[i] == s)
             dem++;
     }
-    Console.WriteLine($"So Lan Xuat Hien Cua {s} La : {dem}.");
+    Console.WriteLine($"==> So Lan Xuat Hien Cua {s} La : {dem}.");
 }
 
 //3.3	Tìm tất cả vị trí của phần tử x trong danh sách
-static void TimTatCaVtriCuaPhanTuX(List<int> a, int f)
+static void TimTatCaVtriCuaPhanTuX(List<int> a, int s)
 {
-    
+    Console.Write("==> ");
     for(int i = 0;i < a.Count; i++)
     {
-        if (a[i] == f)
+        if (a[i] == s)
 
         {
             Console.Write($"\t{i}");
@@ -93,7 +95,7 @@ static void TimVTDauTienList(List<int> a)
 {
     for(int i = 0; i < a.Count; i++)
     {
-        Console.WriteLine($"Vi Tri DAU TIEN Cua Phan Tu Trong LIST La : {i}");
+        Console.WriteLine($"==> Vi Tri DAU TIEN Cua Phan Tu Trong LIST La : {i}");
         break;
     }
 }
@@ -102,7 +104,7 @@ static void TimVTCuoiCung(List<int> a)
 {
     for(int i = a.Count - 1; i >= 0 ; i--)
     {
-        Console.WriteLine($"Vi Tri CUOI CUNG Cua Phan Tu Trong LIST La : {i}");
+        Console.WriteLine($"==> Vi Tri CUOI CUNG Cua Phan Tu Trong LIST La : {i}");
         break;
     }
 }
@@ -110,17 +112,32 @@ static void TimVTCuoiCung(List<int> a)
 static void TimVTSoDuong(List<int> a)
 {
     int vitri;
+    Console.WriteLine("==> ");
     for (int i = 0; i < a.Count; i++)
     {
         if (a[i] > 0)
         {
-            Console.WriteLine($"   {i}");
+            Console.Write($"   {i}");
         }
     }
     
 }
 //3.7	Tìm vị trí của các số âm trong danh sách
+static void TimVTSoAm(List<int> a)
+{
+    int vitri;
+    Console.WriteLine("==> ");
+    for (int i = 0; i < a.Count; i++)
+    {
+        if (a[i] < 0)
+        {
+            Console.Write($"   {i}");
+        }
+    }
+
+}
 //3.8	Tìm vị trí của số lớn nhất trong danh sách
+
 //3.9	Tìm vị trí của số nhỏ nhất trong danh sách
 //3.10	Tìm tất cả số chẵn trong danh sách
 //3.11	Tìm tất cả số lẽ trong danh sách
