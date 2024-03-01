@@ -1,0 +1,30 @@
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\refint\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Lab1_Mang1Chieu\Lab1_Mang1Chieu\obj\Debug\net8.0\ref\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\bin\Debug\net8.0\Lab1_Mang1Chieu.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\refint\Lab1_Mang1Chieu.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\Lab1_Mang1Chieu.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab1_Mang1Chieu\obj\Debug\net8.0\ref\Lab1_Mang1Chieu.dll

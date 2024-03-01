@@ -1,0 +1,14 @@
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.AssemblyInfoInputs.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.AssemblyInfo.cs
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.csproj.CoreCompileInputs.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\bin\Debug\net6.0\QuanLiThuVIen.exe
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\bin\Debug\net6.0\QuanLiThuVIen.deps.json
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\bin\Debug\net6.0\QuanLiThuVIen.runtimeconfig.json
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\bin\Debug\net6.0\QuanLiThuVIen.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\bin\Debug\net6.0\QuanLiThuVIen.pdb
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\refint\QuanLiThuVIen.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.pdb
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\QuanLiThuVIen.genruntimeconfig.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiThuVIen\obj\Debug\net6.0\ref\QuanLiThuVIen.dll

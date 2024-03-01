@@ -1,0 +1,29 @@
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.exe
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.deps.json
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.runtimeconfig.json
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.pdb
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.AssemblyInfoInputs.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.AssemblyInfo.cs
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.csproj.CoreCompileInputs.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\refint\QuanLiDeTaiKH.dll
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.pdb
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.genruntimeconfig.cache
+D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDeTaiKH\obj\Debug\net6.0\ref\QuanLiDeTaiKH.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\bin\Debug\net6.0\QuanLiDeTaiKH.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\refint\QuanLiDeTaiKH.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\QuanLiDeTaiKH.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDeTaiKH\obj\Debug\net6.0\ref\QuanLiDeTaiKH.dll
