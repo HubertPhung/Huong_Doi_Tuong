@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Download\\OOP\\2312802_PhanKhanhVuong\\2312802_PhanKhanhVuong\\QuanLiThuVIen\\QuanLiThuVIen.csproj": {}
+    "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiThuVIen\\QuanLiThuVIen.csproj": {}
   },
   "projects": {
-    "D:\\Download\\OOP\\2312802_PhanKhanhVuong\\2312802_PhanKhanhVuong\\QuanLiThuVIen\\QuanLiThuVIen.csproj": {
+    "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiThuVIen\\QuanLiThuVIen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Download\\OOP\\2312802_PhanKhanhVuong\\2312802_PhanKhanhVuong\\QuanLiThuVIen\\QuanLiThuVIen.csproj",
+        "projectUniqueName": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiThuVIen\\QuanLiThuVIen.csproj",
         "projectName": "QuanLiThuVIen",
-        "projectPath": "D:\\Download\\OOP\\2312802_PhanKhanhVuong\\2312802_PhanKhanhVuong\\QuanLiThuVIen\\QuanLiThuVIen.csproj",
-        "packagesPath": "C:\\Users\\Localhost\\.nuget\\packages\\",
-        "outputPath": "D:\\Download\\OOP\\2312802_PhanKhanhVuong\\2312802_PhanKhanhVuong\\QuanLiThuVIen\\obj\\",
+        "projectPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiThuVIen\\QuanLiThuVIen.csproj",
+        "packagesPath": "C:\\Users\\phung\\.nuget\\packages\\",
+        "outputPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiThuVIen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Localhost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +50,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

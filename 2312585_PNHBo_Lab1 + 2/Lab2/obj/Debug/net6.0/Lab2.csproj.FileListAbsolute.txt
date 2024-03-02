@@ -1,0 +1,30 @@
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\bin\Debug\net6.0\Lab2.exe
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\bin\Debug\net6.0\Lab2.deps.json
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\bin\Debug\net6.0\Lab2.runtimeconfig.json
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\bin\Debug\net6.0\Lab2.dll
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\bin\Debug\net6.0\Lab2.pdb
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.csproj.AssemblyReference.cache
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfo.cs
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.dll
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\refint\Lab2.dll
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.pdb
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\Lab2.genruntimeconfig.cache
+C:\Users\CICT\source\repos\ConsoleApp2\Lab2\obj\Debug\net6.0\ref\Lab2.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\bin\Debug\net6.0\Lab2.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\bin\Debug\net6.0\Lab2.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\bin\Debug\net6.0\Lab2.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\bin\Debug\net6.0\Lab2.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\bin\Debug\net6.0\Lab2.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\refint\Lab2.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\Lab2.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\Lab2\obj\Debug\net6.0\ref\Lab2.dll

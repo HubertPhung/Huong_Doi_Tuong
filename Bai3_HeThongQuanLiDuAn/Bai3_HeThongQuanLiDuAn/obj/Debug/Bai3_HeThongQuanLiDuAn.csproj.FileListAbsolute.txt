@@ -1,0 +1,2 @@
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Bai3_HeThongQuanLiDuAn\Bai3_HeThongQuanLiDuAn\obj\Debug\Bai3_HeThongQuanLiDuAn.csproj.AssemblyReference.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\Bai3_HeThongQuanLiDuAn\Bai3_HeThongQuanLiDuAn\obj\Debug\Bai3_HeThongQuanLiDuAn.csproj.CoreCompileInputs.cache

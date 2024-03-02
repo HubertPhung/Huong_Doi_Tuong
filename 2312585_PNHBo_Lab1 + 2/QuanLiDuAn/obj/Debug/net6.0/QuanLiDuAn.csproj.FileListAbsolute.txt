@@ -27,3 +27,18 @@ D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDuAn\obj\Deb
 D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.pdb
 D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.genruntimeconfig.cache
 D:\Download\OOP\2312802_PhanKhanhVuong\2312802_PhanKhanhVuong\QuanLiDuAn\obj\Debug\net6.0\ref\QuanLiDuAn.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\bin\Debug\net6.0\QuanLiDuAn.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\bin\Debug\net6.0\QuanLiDuAn.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\bin\Debug\net6.0\QuanLiDuAn.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\bin\Debug\net6.0\QuanLiDuAn.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\bin\Debug\net6.0\QuanLiDuAn.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\refint\QuanLiDuAn.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\QuanLiDuAn.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab1 + 2\QuanLiDuAn\obj\Debug\net6.0\ref\QuanLiDuAn.dll

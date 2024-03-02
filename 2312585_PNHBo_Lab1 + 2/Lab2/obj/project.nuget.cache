@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sqH0Zb2RsGXx/3BUI2m9aOmOSx8ZnbpJRm+mu0Xs8f1POlBs+IR1eI9/C19w23lZdiaUG0nZIXS5hB1j5Rcf8A==",
+  "success": true,
+  "projectFilePath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phung\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\phung\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\phung\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\phung\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
