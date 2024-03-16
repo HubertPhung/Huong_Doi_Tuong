@@ -1,0 +1,15 @@
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\bin\Debug\net8.0\QuanLySinhVien.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\bin\Debug\net8.0\QuanLySinhVien.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\bin\Debug\net8.0\QuanLySinhVien.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\bin\Debug\net8.0\QuanLySinhVien.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\bin\Debug\net8.0\QuanLySinhVien.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.sourcelink.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\refint\QuanLySinhVien.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\QuanLySinhVien.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_Lab3\QuanLySinhVien\obj\Debug\net8.0\ref\QuanLySinhVien.dll
