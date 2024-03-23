@@ -121,6 +121,8 @@ namespace QuanLySinhVien
                     break;
                 case 8:
                     //8. Xếp hạng sinh viên của lớp
+                    Console.WriteLine("8. Xếp hạng sinh viên của lớp : ");
+                    ds.XepHangSinhVien();
                     break;
                 case 9:
                     //9. Tìm lớp có tổng điểm trung bình cao nhất, thấp nhất
@@ -136,17 +138,31 @@ namespace QuanLySinhVien
                 case 10:
                     //10. Tìm lớp có nhiều sinh viên giỏi nhất
                     Console.WriteLine("10. Tìm lớp có nhiều sinh viên giỏi nhất");
-                    Console.WriteLine("Lớp có nhiều sinh viên giỏi nhất là : "+ds.TimLopCoNhieuSVGioiNhat("Gioi"));
+                    Console.WriteLine(ds.TimLopNhieuSinhVienGioiNhat());
                     break;
                 case 11:
                     //11. Tìm lớp có nhiều (hoặc ít) sinh viên theo loại yếu, trung bình, khá
                     Console.WriteLine("11. Tìm lớp có nhiều (hoặc ít) sinh viên theo loại yếu, trung bình, khá");
-                    Console.WriteLine("Lớp có nhiều sinh viên khá nhất là : " + ds.TimLopCoNhieuSVGioiNhat("Kha"));
-                    Console.WriteLine("Lớp có nhiều sinh viên TB nhất là : " + ds.TimLopCoNhieuSVGioiNhat("TB"));
-                    Console.WriteLine("Lớp có nhiều sinh viên Yếu nhất là : " + ds.TimLopCoNhieuSVGioiNhat("Yeu"));
+                    Console.WriteLine(ds.TimLopNhieuYeuTBKha());
+                    Console.WriteLine(ds.TimLopItYeuTBKha());
+
                     break;
                 case 12:
                     //12. Ghi xuống file danh sách lớp 
+                    Console.WriteLine("12. Ghi xuống file danh sách lớp ");
+                    List<SinhVien> danhSachMoi = new List<SinhVien>
+                    {
+                        new SinhVien("001", "Nguyen Van A", 8.5f, true, "CTK43"),
+                        new SinhVien("002", "Tran Thi B", 7.2f, false, "CTK44"),
+                        new SinhVien("003", "Le Van C", 6.8f, true, "CTK45")
+                    };
+                    using (StreamWriter writer = new StreamWriter("data.txt", false))
+                    {
+                        foreach (SinhVien sinhVien in danhSachMoi)
+                        {
+                            writer.WriteLine(sinhVien.ToString()); // Ghi thông tin của sinh viên vào file
+                        }
+                    }
                     break;
                 case 13:
                     //13. Tìm lớp không có sinh viên nữ
@@ -199,7 +215,5 @@ namespace QuanLySinhVien
                 XuLyMenu(menu, ds, dsphu, sv);
             } while (menu > 0);
         }
-
-
     }
 }

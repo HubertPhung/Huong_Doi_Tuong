@@ -172,6 +172,214 @@ namespace QuanLySinhVien
             return vt;
         }
 
+        public Dictionary<string, List<SinhVien>> LayDSSVTheoLopGiamDan()
+        {
+            // Nhóm sinh viên theo lớp
+            SapXepGiamTheoDTB();
+
+            // Tạo một Dictionary để lưu trữ danh sách sinh viên đã sắp xếp theo lớp
+            Dictionary<string, List<SinhVien>> result = new Dictionary<string, List<SinhVien>>();
+
+            // Lặp qua danh sách sinh viên và thêm vào từng lớp tương ứng
+            foreach (var sv in ds)
+            {
+                if (!result.ContainsKey(sv.Lop))
+                {
+                    result[sv.Lop] = new List<SinhVien>();
+                }
+                result[sv.Lop].Add(sv);
+            }
+
+            return result;
+        }
+        public void XepHangSinhVien()
+        {
+
+            // Lấy danh sách sinh viên đã được nhóm và sắp xếp theo lớp và điểm trung bình
+            var danhSachTheoLopVaSapXep = LayDSSVTheoLopGiamDan();
+
+            // Lặp qua từng lớp và hiển thị sinh viên đã sắp xếp theo hạng
+            foreach (var pair in danhSachTheoLopVaSapXep)
+            {
+                Console.WriteLine($"Lop: {pair.Key}");
+
+                var rankedStudents = pair.Value;
+
+                for (int i = 0; i < rankedStudents.Count; i++)
+                {
+                    Console.WriteLine($"Hang: {i + 1}   {rankedStudents[i]} ");
+                }
+
+                Console.WriteLine(); 
+            }
+
+        }
+
+        //public string TimLopNhieuSinhVienGioiNhat()
+        //{
+        //    var dsLopGioi = ds.Where(sv => sv.xepLoai == "Gioi").GroupBy(sv => sv.Lop).ToList();
+
+        //    if (dsLopGioi.Count == 0)
+        //    {
+        //        return "Không có sinh viên nào được xếp loại 'Gioi'.";
+        //    }
+
+        //    var lopNhieuSinhVienGioi = dsLopGioi.OrderByDescending(g => g.Count()).First().Key;
+
+        //    return $"Lớp có nhiều sinh viên giỏi nhất là: {lopNhieuSinhVienGioi}";
+        //}
+
+        //public string TimLopNhieuSinhVienGioiNhat()
+        //{
+        //    Dictionary<string, int> lopSoLuongSinhVienGioi = new Dictionary<string, int>();
+
+        //    foreach (var sv in ds)
+        //    {
+        //        if (sv.xepLoai == "Gioi")
+        //        {
+        //            if (lopSoLuongSinhVienGioi.ContainsKey(sv.Lop))
+        //            {
+        //                lopSoLuongSinhVienGioi[sv.Lop]++;
+        //            }
+        //            else
+        //            {
+        //                lopSoLuongSinhVienGioi[sv.Lop] = 1;
+        //            }
+        //        }
+        //    }
+
+        //    if (lopSoLuongSinhVienGioi.Count == 0)
+        //    {
+        //        return "Không có sinh viên nào được xếp loại 'Gioi'.";
+        //    }
+
+        //    var lopNhieuSinhVienGioi = "";
+        //    var maxSoLuong = int.MinValue; 
+        //    // Là một dãy số nguyên được khởi tạo với giá trị thấp nhất "MinValue"
+
+        //    foreach (var kvp in lopSoLuongSinhVienGioi)
+        //    {
+        //        if (kvp.Value > maxSoLuong)
+        //        {
+        //            maxSoLuong = kvp.Value;
+        //            lopNhieuSinhVienGioi = kvp.Key;
+        //        }
+        //    }
+
+        //    return $"Lớp có nhiều sinh viên giỏi nhất là: {lopNhieuSinhVienGioi}";
+        //}
+
+
+        public Dictionary<string, int> TinhSoLuongSinhVienXepLoai(List<SinhVien> ds, string xepLoai)
+        {
+            Dictionary<string, int> lopSoLuongSinhVien = new Dictionary<string, int>();
+
+            foreach (var sv in ds)
+            {
+                if (sv.xepLoai == xepLoai)
+                {
+                    if (lopSoLuongSinhVien.ContainsKey(sv.Lop))
+                    {
+                        lopSoLuongSinhVien[sv.Lop]++;
+                    }
+                    else
+                    {
+                        lopSoLuongSinhVien[sv.Lop] = 1;
+                    }
+                }
+            }
+
+            return lopSoLuongSinhVien;
+        }
+
+        public string TimLopNhieuSinhVienGioiNhat()
+        {
+            var lopSoLuongSinhVien = TinhSoLuongSinhVienXepLoai(ds,"Gioi");
+            if (lopSoLuongSinhVien.Count == 0)
+            {
+                return "Không có sinh viên nào được xếp loại 'Gioi'.";
+            }
+
+            var lopNhieuSinhVien = "";
+            var maxSoLuong = int.MinValue;
+
+            foreach (var kvp in lopSoLuongSinhVien)
+            {
+                if (kvp.Value > maxSoLuong)
+                {
+                    maxSoLuong = kvp.Value;
+                    lopNhieuSinhVien = kvp.Key;
+                }
+            }
+
+            return $"Lớp có nhiều sinh viên giỏi nhất là: {lopNhieuSinhVien}"; 
+        }
+
+        public Dictionary<string, int> TinhSoLuongSinhVienXepLoai2(List<SinhVien> ds)
+        {
+            Dictionary<string, int> lopSoLuongSinhVien = new Dictionary<string, int>();
+
+            foreach (var sv in ds)
+            {
+                if (sv.xepLoai == "Kha" || sv.xepLoai == "TB" || sv.xepLoai == "Yeu" )
+                {
+                    if (lopSoLuongSinhVien.ContainsKey(sv.Lop))
+                    {
+                        lopSoLuongSinhVien[sv.Lop]++;
+                    }
+                    else
+                    {
+                        lopSoLuongSinhVien[sv.Lop] = 1;
+                    }
+                }
+            }
+
+            return lopSoLuongSinhVien;
+        }
+        public string TimLopNhieuYeuTBKha()
+        {
+            var lopSoLuongSinhVien = TinhSoLuongSinhVienXepLoai2(ds);
+            if (lopSoLuongSinhVien.Count == 0)
+            {
+                return "Không có sinh viên nào được xếp loại 'Yếu', 'TB', 'Khá'.";
+            }
+
+            var lopNhieuSinhVien = "";
+            var maxSoLuong = int.MinValue;
+
+            foreach (var kvp in lopSoLuongSinhVien)
+            {
+                if (kvp.Value > maxSoLuong)
+                {
+                    maxSoLuong = kvp.Value;
+                    lopNhieuSinhVien = kvp.Key;
+                }
+            }
+
+            return $"Lớp có nhiều sinh viên Yếu, Trung Bình, Khá nhất là: {lopNhieuSinhVien}";
+        }
+
+        public string TimLopItYeuTBKha()
+        {
+            var lopSoLuongSinhVien = TinhSoLuongSinhVienXepLoai2(ds);
+            if (lopSoLuongSinhVien.Count == 0)
+            {
+                return "Không có sinh viên nào được xếp loại 'Yếu', 'TB', 'Khá'.";
+            }
+
+            var lopNhieuSinhVien = "";
+            var maxSoLuong = int.MaxValue;
+
+            foreach (var kvp in lopSoLuongSinhVien)
+            {
+                if (kvp.Value < maxSoLuong)
+                {
+                    maxSoLuong = kvp.Value;
+                    lopNhieuSinhVien = kvp.Key;
+                }
+            }
+            return $"Lớp có ít sinh viên Yếu, Trung Bình, Khá nhất là: {lopNhieuSinhVien}";
+        }
         public float TongDTBTheoLop(string lop)
         {
             float total = 0;
@@ -271,23 +479,26 @@ namespace QuanLySinhVien
             }
             return ex;
         }
-        public string TimLopCoNhieuSVGioiNhat(string xepLoai)
-        {
-            int max = 0;
-            string LOP = "";
-            foreach (var lop in LayDanhSachLop())
-            {
-                if (ThongKeTheoLop(lop).ContainsKey(xepLoai))
-                {
-                    if (ThongKeTheoLop(lop)[xepLoai] > max)
-                    {
-                        max = ThongKeTheoLop(lop)[xepLoai];
-                        LOP = lop;
-                    }
-                }
-            }
-            return LOP;
-        }
+
+        //public string TimLopXepLoai(string xepLoai)
+        //{
+        //    int max = 0;
+        //    string LOP = "";
+        //    foreach (var lop in LayDanhSachLop())
+        //    {
+        //        if (ThongKeTheoLop(lop).ContainsKey(xepLoai))
+        //        {
+        //            if (ThongKeTheoLop(lop)[xepLoai] > max)
+        //            {
+        //                max = ThongKeTheoLop(lop)[xepLoai];
+        //                LOP = lop;
+        //            }
+        //        }
+        //    }
+        //    return LOP;
+        //}
+
+        
 
         public List<string> TimLopCoNu()
         {
@@ -387,5 +598,7 @@ namespace QuanLySinhVien
         {
             ds.RemoveAll(sv => sv.Lop == lopCanXoa);
         }
+
+        
     }
 }
