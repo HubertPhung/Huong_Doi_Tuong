@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj": {}
+    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj": {}
   },
   "projects": {
-    "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj": {
+    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj",
+        "projectUniqueName": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj",
         "projectName": "QuanLiDuAn",
-        "projectPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj",
+        "projectPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\QuanLiDuAn.csproj",
         "packagesPath": "C:\\Users\\phung\\.nuget\\packages\\",
-        "outputPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\obj\\",
+        "outputPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiDuAn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phung\\AppData\\Roaming\\NuGet\\NuGet.Config",

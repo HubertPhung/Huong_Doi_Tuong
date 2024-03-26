@@ -14,3 +14,11 @@ D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySin
 D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
 D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
 D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\bin\Debug\Data.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\SVIT_QuanLySinhVien_Buoi1\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
