@@ -66,6 +66,24 @@ namespace UngDungQuanLyDanhBa
             return dem;
         }
        
+        public List<string> TimTPCoNhieuThueBaoNhat()
+        {
+            List<string> kq = new List<string>();
+            List<string> dstp = TimDSCacThanhPho();
+            int max = int.MinValue;
+            foreach (var item in dstp)
+            {
+                if (max < DemSoThueBaoTheoTP(item))
+                    max = DemSoThueBaoTheoTP(item);
+            }
+            //Console.WriteLine(" Max = " + max);
+            foreach(var tp in dstp)
+            {
+                if(DemSoThueBaoTheoTP(tp) == max)
+                    kq.Add((tp)); 
+            }
+            return kq;
+        }
 
     }
 }

@@ -1,0 +1,14 @@
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\bin\Debug\net8.0\QuanLyDongVat.exe
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\bin\Debug\net8.0\QuanLyDongVat.deps.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\bin\Debug\net8.0\QuanLyDongVat.runtimeconfig.json
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\bin\Debug\net8.0\QuanLyDongVat.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\bin\Debug\net8.0\QuanLyDongVat.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.GeneratedMSBuildEditorConfig.editorconfig
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.AssemblyInfoInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.AssemblyInfo.cs
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.csproj.CoreCompileInputs.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\refint\QuanLyDongVat.dll
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.pdb
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\QuanLyDongVat.genruntimeconfig.cache
+D:\University_Year1\Nguyên Lý Lập Trình HĐT\Huong_Doi_Tuong\2312585_PNHBo_QuanLyDongVat\QuanLyDongVat\obj\Debug\net8.0\ref\QuanLyDongVat.dll
