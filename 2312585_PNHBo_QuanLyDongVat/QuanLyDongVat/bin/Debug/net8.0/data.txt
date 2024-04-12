@@ -1,0 +1,5 @@
+﻿Sea catfish,6,CatFish,Red
+white catfish,2,CatFish,White
+Snow rabbit,9,Rabbit,Blue
+River catfish,10,CatFish,Yellow
+Amazon rabbit,5,Rabbit,Pink

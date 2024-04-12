@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\QuanLyNguoi.csproj",
+      "projectUniqueName": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\QuanLyNguoi.csproj",
       "projectName": "QuanLyNguoi",
-      "projectPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\QuanLyNguoi.csproj",
+      "projectPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\QuanLyNguoi.csproj",
       "packagesPath": "C:\\Users\\phung\\.nuget\\packages\\",
-      "outputPath": "D:\\University_Year1\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\obj\\",
+      "outputPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_QuanLyNguoi\\QuanLyNguoi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phung\\AppData\\Roaming\\NuGet\\NuGet.Config",

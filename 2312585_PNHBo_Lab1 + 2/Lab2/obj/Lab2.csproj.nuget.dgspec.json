@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj": {}
+    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj": {
+    "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj",
+        "projectPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\phung\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\Lab2\\obj\\",
+        "outputPath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phung\\AppData\\Roaming\\NuGet\\NuGet.Config",

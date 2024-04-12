@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nfGOHXtxHyTRuo31u9Jsmha/TsDfipAnEdhZa9huLcp77yq952rMvKXeT/uBexg6b3+H/3inYLDiKemiuUIkbQ==",
+  "dgSpecHash": "WTpKDju2ZX+ibec8k8Wm6x69Pgm7CmCdGwKAzwgKujWUNDQSs+9OCQjZRzqrpZ9d2/wiQ1i0dWB2Ksx/qr8qRg==",
   "success": true,
-  "projectFilePath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Huong_Doi_Tuong\\2312585_PNHBo_Lab1 + 2\\QuanLiSieuThi\\QuanLiSieuThi.csproj",
+  "projectFilePath": "D:\\University\\Nguyên Lý Lập Trình HĐT\\Object Oriented Programming – OOP\\2312585_PNHBo_Lab1 + 2\\QuanLiSieuThi\\QuanLiSieuThi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phung\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
     "C:\\Users\\phung\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",

@@ -2,9 +2,9 @@
 using System.Text;
 Console.OutputEncoding = Encoding.UTF8;
 
-Animal animal = new Animal();
+//Animal animal = new Animal();
 //animal.Speak();
-CatFish catFish = new CatFish();
+//CatFish catFish = new CatFish();
 
 //Animal catfish1 = new CatFish();
 //catfish1.Speak();
@@ -17,9 +17,14 @@ CatFish catFish = new CatFish();
 //Animal catfish2 = new Animal();
 //catfish2.Speak();
 
-Animal animal1 = new Animal();
-catFish =(CatFish)animal1;
-animal1.Speak();
+//Animal animal1 = new Animal();
+//catFish = (CatFish)animal1;
+//animal1.Speak();
 
+//Animal rabbit = new Rabbit("Milk",2,"Blue","ABC");
+//Console.WriteLine(rabbit);
 
+ListAnimal animals = new ListAnimal();
+animals.NhapTuFile("data.txt");
+animals.Xuat();
 

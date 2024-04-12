@@ -9,19 +9,19 @@ namespace UngDungQuanLyDanhBa
    
     enum GioiTinh
     {
-        Nam,
-        Nu
+        Nam ,
+        Nu 
     }
     internal class ThueBao
     {
         List<DanhBa> db = new List<DanhBa>();
 
-        string diaChi;
-        GioiTinh gioiTinh;
-        string hoTen;
-        DateTime ngaySinh;
-        string soDT;
-        string soCMND;
+        string diaChi { get; set; }
+        GioiTinh gioiTinh { get; set; }
+        public string hoTen { get; set; }
+        DateTime ngaySinh { get; set; }
+        public string soDT { get; set; }
+        string soCMND { get; set; }
         
        
 
@@ -50,11 +50,41 @@ namespace UngDungQuanLyDanhBa
             diaChi = s[5];
         }
 
-        public void Xuat()
+        
+
+        public void Nhap(int n)
         {
-            Console.WriteLine("{0, 1} {1, 10} {2, 15} {3, 10} {4, 10} {5, 10}", soCMND, hoTen, ngaySinh.ToString("dd/MM/yyyy"), gioiTinh, soDT, diaChi);
+           
+                Console.Write("Nhap so CMND : ");
+                soCMND = Console.ReadLine();
+
+                Console.Write("Nhap ho va ten : ");
+                hoTen = Console.ReadLine();
+
+                Console.Write("Nhap Ngay/Thang/Nam sinh (dd/MM/yyyy): ");
+                ngaySinh = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+
+                Console.Write("Nhap giai tinh (Nam/Nu): ");
+                gioiTinh = Enum.Parse<GioiTinh>(Console.ReadLine());
+
+                Console.Write("SDT : ");
+                soDT = Console.ReadLine();
+
+                Console.Write("Nhap dia chi : ");
+                diaChi = Console.ReadLine();
+                Console.WriteLine();
+
         }
 
+
+
+        public void Xuat()
+        {
+            Console.WriteLine($"{soCMND,-10} {hoTen,-20} {ngaySinh.ToString("dd/MM/yyyy"),-15} {gioiTinh,-10} {soDT,-15} {diaChi}");
+
+        }
+
+        
 
         public string ThanhPho
         {

@@ -1,0 +1,15 @@
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\bin\Debug\net8.0\QuanLyNguoi.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\bin\Debug\net8.0\QuanLyNguoi.deps.json
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\bin\Debug\net8.0\QuanLyNguoi.runtimeconfig.json
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\bin\Debug\net8.0\QuanLyNguoi.dll
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\bin\Debug\net8.0\QuanLyNguoi.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.AssemblyInfoInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.AssemblyInfo.cs
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.sourcelink.json
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.dll
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\refint\QuanLyNguoi.dll
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\QuanLyNguoi.genruntimeconfig.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLyNguoi\QuanLyNguoi\obj\Debug\net8.0\ref\QuanLyNguoi.dll

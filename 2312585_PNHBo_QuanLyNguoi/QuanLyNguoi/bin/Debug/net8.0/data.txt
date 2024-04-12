@@ -1,0 +1,5 @@
+Phung Nguyen Hoai Bo,19,Studen,1 milion VND by parents,Da Lat university
+Khanh Vuong Vuong,19,Studen,10 milion by parents,Da Lat university
+Nguyen Ngoc Truong Dan,27,Teacher,15 milion VND,English teacher
+Nguyen Hung Thinh,29,Staff,4 milion,office staff,8 hours
+Vu The Huynh,25,Staff,2 bilion,Marketing,16 hours

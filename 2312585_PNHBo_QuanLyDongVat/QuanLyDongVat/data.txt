@@ -1,0 +1,3 @@
+﻿CatFish,6,Duc,Red
+Rabbit,9,Nu,Blue
+CatFish,10,Duc,Yellow
