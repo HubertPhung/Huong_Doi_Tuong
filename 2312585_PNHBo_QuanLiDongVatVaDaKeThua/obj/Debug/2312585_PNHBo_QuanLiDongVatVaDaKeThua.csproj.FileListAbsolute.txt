@@ -1,0 +1,8 @@
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\obj\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\obj\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\bin\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\bin\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\bin\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\obj\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\obj\Debug\2312585_PNHBo_QuanLiDongVatVaDaKeThua.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_QuanLiDongVatVaDaKeThua\bin\Debug\data.txt

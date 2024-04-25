@@ -48,7 +48,7 @@ namespace _2312585_PNHBo_QuanLyCacDoiTuongHinhHoc
 
         public override string ToString()
         {
-            return string.Format("Shape : {0}\nCanh1 : {1}\nCanh2 : {2}\nCanh3 : {3}\nArea : {4}\nPermeter : {5}\nHighroad : {6}\n{7}", "Triagle",canh1,canh2, canh3,Area(), Highroad(), Permeter(), "Circle drawing....");
+            return string.Format("Shape : {0}\nCanh1 : {1}\nCanh2 : {2}\nCanh3 : {3}\nArea : {4}\nPermeter : {5}\nHighroad : {6}\n{7}", "Triagle", canh1, canh2, canh3, Area(), Highroad(), Permeter(), "Circle drawing....");
         }
     }
 }

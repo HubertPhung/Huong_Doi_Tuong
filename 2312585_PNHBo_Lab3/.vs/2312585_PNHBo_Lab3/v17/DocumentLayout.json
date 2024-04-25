@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab3\\quanlysinhvien\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|solutionrelative:quanlysinhvien\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab3\\quanlysinhvien\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|solutionrelative:quanlysinhvien\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab3\\quanlysinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|solutionrelative:quanlysinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab3\\quanlysinhvien\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52EF3D2-6940-4D5F-97C4-93A449A1A12E}|QuanLySinhVien\\QuanLySinhVien.csproj|solutionrelative:quanlysinhvien\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\Menu.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien\\Menu.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\Menu.cs",
+              "RelativeToolTip": "QuanLySinhVien\\Menu.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAAAMQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T04:04:09.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DanhSachSinhVien.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\DanhSachSinhVien.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien\\DanhSachSinhVien.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\DanhSachSinhVien.cs",
+              "RelativeToolTip": "QuanLySinhVien\\DanhSachSinhVien.cs",
+              "ViewState": "AQIAAH8BAAAAAAAAAAAAwCUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T04:04:09.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\SinhVien.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien\\SinhVien.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\SinhVien.cs",
+              "RelativeToolTip": "QuanLySinhVien\\SinhVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T04:04:09.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien\\Program.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab3\\QuanLySinhVien\\Program.cs",
+              "RelativeToolTip": "QuanLySinhVien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T04:04:09.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
