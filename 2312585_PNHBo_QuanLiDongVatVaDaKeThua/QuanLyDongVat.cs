@@ -1,18 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 {
+    enum LoaiDongVat
+    {
+        Bird,
+        Bat,
+        Lion
+    }
+
+    enum Fly
+    {
+        Flyable,
+        Unflyable
+    }
+
+    enum Sort
+    {
+        TangName,
+        GiamName,
+        TangAge,
+        GiamAge
+    }
+    
+    
     internal class QuanLyDongVat
     {
         List<IAnimal> ds = new List<IAnimal>();
 
+        public int SoLuong
+        {
+            get => ds.Count;
+        }
 
         public void Them(IAnimal animal)
         {
@@ -42,49 +71,76 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
                     IAnimal bird = new Bird(int.Parse(t[2]), t[1]);
                     ds.Add(bird);
                 }
-
-
             }
-
-           
+            sr.Close();
         }
+
+        public override string ToString()
+        {
+            //StringBuilder sb = new StringBuilder();
+            //foreach (IAnimal animal in ds)
+            //{
+            //    sb.AppendLine(animal.ToString());
+            //}
+            //return sb.ToString();
+
+            StringBuilder sb = new StringBuilder();
+            for (var i = 0; i < ds.Count; i++)
+            {
+                sb.AppendLine($"{i + 1,-5}{ds[i]}"); // Thêm STT vào chuỗi kết quả
+            }
+            return sb.ToString();
+
+            //return string.Join("\n", ds.Select(x => x.ToString()).ToArray());
+        }
+
+        //public override string ToString()
+        //{
+        //    return string.Join("\n", ds.Select((animal, index) => $"{index + 1,-5}{animal.ToString()}").ToArray());
+        //}
+
         public void Xuat()
         {
-            foreach (IAnimal animal in ds)
-            {
-                Console.WriteLine(animal);
-                Console.WriteLine();
-            }
+            Console.WriteLine($"{"STT",-5}{"Kind",-10}{"Name",-11}Age");
+            Console.WriteLine(this);
         }
 
-        // 4.	Đếm số lượng động vật là Bat, Lion, Bird
-        public int DemSLBat()
+        
+
+        // 4.	Đếm số lượng động vật là Bat, Lion, Bird && //5.	Đếm số lượng động vật biết bay, không biết bay
+
+        public int DemSLTheoLoai(Enum loai)
         {
-            return ds.Count(x => x is Bat);
+            if (loai is LoaiDongVat)
+                switch (loai)
+                {
+                    case LoaiDongVat.Bird:
+                        return ds.Count(x => x is Bird);
+                    case LoaiDongVat.Bat:
+                        return ds.Count(x => x is Bat);
+                    case LoaiDongVat.Lion:
+                        return ds.Count(x => x is Lion);
+                    default:
+                        return 0;
+                }
+            else if (loai is Fly)
+                switch (loai)
+                {
+                    case Fly.Flyable:
+                        //return ds.Count(x => x is IFlyable);
+                        return DSDVBietBay().SoLuong;
+                    case Fly.Unflyable:
+                        return ds.Count(x => !(x is IFlyable));
+                }
+            return 0;
         }
 
-        public int DemSLLion()
-        {
-            return ds.Count(x => x is Lion);    
-        }
+        
 
-        public int DemSLBird()
-        {
-            return ds.Count(x => x is Bird);
-        }
-
-        //5.	Đếm số lượng động vật biết bay, không biết bay
-        public int DemSLDongVatBietBay()
-        {
-            return ds.Count(x => x is IFlyable);
-        }
-
-        public int DemSLDongVatKhongBietBay()
-        {
-            return ds.Count(x => !(x is IFlyable));
-        }
 
         //6.	Đếm số lượng động vật biết bay, không biết bay theo tên, tuổi
+
+        
 
         public int DemSLDVBietBayTheoTen(string name)
         {
@@ -98,77 +154,50 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 
         public int DemSLDVKhongBietBayTheoTen(string name1)
         {
-            return ds.Count(x => x.Name == name1  && !(x is IFlyable));
+            return ds.Count(x => x.Name == name1 && (!(x is IFlyable)));
         }
-        public int DemSLDVKhongBietBayTheoTuoi( int age1)
+        public int DemSLDVKhongBietBayTheoTuoi(int age1)
         {
-            return ds.Count(x => x.Age == age1 && !(x is IFlyable));
-        }
-        //7.	Tìm động vật có số lượng nhiều nhất, ít nhất.
-        public void TimDongVatMAX()
-        {
-
+            return ds.Count(x => x.Age == age1 && (!(x is IFlyable)));
         }
 
         //8.	Tìm tất cả động vật thuộc loài Bat, Lion, Bird (tương ứng thành 3 phương thức)
-        public List<IAnimal> TimALLDVThuocBat()
+        public QuanLyDongVat TimDSDVTheoLoai(LoaiDongVat loai)
         {
-            List<IAnimal> kq = new List<IAnimal> ();
-            foreach (var x in ds)
+            QuanLyDongVat kq = new QuanLyDongVat();
+            foreach (var dongVat in ds)
             {
-                if(x is Bat)
-                    kq.Add(x);
-            }
-            return kq;
-        }
-
-        public List<IAnimal> TimALLDVThuocLion()
-        {
-            List<IAnimal> kq = new List<IAnimal> ();
-            foreach (var x in ds)
-            {
-                if (x is Lion)
-                    kq.Add(x);
-            }
-            return kq;
-        }
-
-        public List<IAnimal> TimALLDVThuocBird()
-        {
-            List<IAnimal> kq = new List<IAnimal>();
-            foreach (var x in ds)
-            {
-                if (x is Bird)
-                    kq.Add(x) ;
+                if (dongVat.GetType().Name == loai.ToString())
+                    kq.Them(dongVat);
             }
             return kq;
         }
 
         //9.	Tìm tất cả động vật có tên ngắn nhất, dài nhất
 
-        public List<IAnimal> TimALLDVCoTenNganNhat()
+        public QuanLyDongVat TimALLDVCoTen_Min()
         {
-            List<IAnimal> kq = new List<IAnimal> () ;
-            int namengannhat = ds.Max(x => x.Name.Length);
-            foreach(var x in ds)
+            QuanLyDongVat kq = new QuanLyDongVat();
+            int nameMin = ds.Min(x => x.Name.Length);
+            foreach (var x in ds)
             {
-                if(x.Name.Length ==  namengannhat)
+                if (x.Name.Length == nameMin)
                 {
-                    kq.Add(x);
+                    kq.Them(x);
                 }
             }
             return kq;
         }
 
-        public List<IAnimal> TimALLDVCoTenDaiNhat()
+        public QuanLyDongVat TimALLDVCoTen_Max()
         {
-            List<IAnimal> kq = new List<IAnimal>();
-            int namedainhat = ds.Min(x => x.Name.Length);
+            QuanLyDongVat kq = new QuanLyDongVat();
+            int nameMax = ds.Max(x => x.Name.Length);
             foreach (var x in ds)
             {
-                if (x.Name.Length == namedainhat)
+                if (x.Name.Length == nameMax)
                 {
-                    kq.Add(x);
+                    kq.Them(x);
                 }
             }
             return kq;
@@ -176,410 +205,561 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 
         //10.	Tìm tất cả động vật có tuổi lớn nhất, nhỏ nhất
 
-        public List<IAnimal> TimALLDVCoTuoiMAX()
+        public QuanLyDongVat TimALLDVCoTuoi_Max()
         {
-            List<IAnimal> kq = new List<IAnimal> ();
-            int ageMax = ds.Max (x => x.Age);
-            foreach(var x in ds)
+            QuanLyDongVat kq = new QuanLyDongVat();
+            int ageMax = ds.Max(x => x.Age);
+            foreach (var x in ds)
             {
-                if(ageMax == x.Age)
+                if (ageMax == x.Age)
                 {
-                    kq.Add(x);
+                    kq.Them(x);
                 }
             }
             return kq;
         }
-        public List<IAnimal> TimALLDVCoTuoiMIN()
+        public QuanLyDongVat TimALLDVCoTuoi_Min()
         {
-            List<IAnimal> kq = new List<IAnimal>();
+            QuanLyDongVat kq = new QuanLyDongVat();
             int ageMin = ds.Min(x => x.Age);
             foreach (var x in ds)
             {
                 if (ageMin == x.Age)
                 {
-                    kq.Add(x);
+                    kq.Them(x);
                 }
             }
             return kq;
         }
 
         //11.	Tìm tất cả động vật có tên ngắn nhất, dài nhất theo loài
-        public QuanLyDongVat TimLoai(string kind)
+        public QuanLyDongVat TimLoai(LoaiDongVat kind)
         {
-            QuanLyDongVat kq = null;
+            QuanLyDongVat kq = new QuanLyDongVat();
             foreach (var i in ds)
             {
-                if (kind == "Bat")
+                if (kind == LoaiDongVat.Bat)
+                {
                     if (i is Bat) kq.Them(i);
-                else if (kind == "Bird")
+                }
+                else if (kind == LoaiDongVat.Bird)
+                {
                     if (i is Bird) kq.Them(i);
-                else if (kind == "Lion")
+                }      
+                else if (kind == LoaiDongVat.Lion)
+                {
                     if (i is Lion) kq.Them(i);
+                }
+                else
+                Console.WriteLine("Không có loài động vật này! ");
             }
+
             return kq;
         }
-        public List<IAnimal> TimDVCoTenDaiNhatTheoLoai(string kind1)
+        public QuanLyDongVat TimDVCoTenDaiNhatTheoLoai(LoaiDongVat kind)
         {
 
-            QuanLyDongVat kq = TimLoai(kind1);
-            return kq.TimALLDVCoTenDaiNhat();
+            QuanLyDongVat kq = TimLoai(kind);
+            return kq.TimALLDVCoTen_Max();
         }
 
-        public List<IAnimal> TimDVCoTenNganNhatTheoLoai(string kind)
+        public QuanLyDongVat TimDVCoTenNganNhatTheoLoai(LoaiDongVat kind)
         {
             QuanLyDongVat kq = TimLoai(kind);
-            return kq.TimALLDVCoTenNganNhat();
+            return kq.TimALLDVCoTen_Min();
         }
 
         //12.	Tìm tất cả động vật có tuổi lớn nhất, nhỏ nhất theo loài
-        public List<IAnimal> TimDVCoTuoiDaiNhatTheoLoai(string kind)
+        public QuanLyDongVat TimDVCoTuoiLonNhatTheoLoai(LoaiDongVat kind)
         {
             QuanLyDongVat kq = TimLoai(kind);
-            return kq.TimALLDVCoTuoiMIN();
+            return kq.TimALLDVCoTuoi_Max();
         }
-        public List<IAnimal> TimDVCoTuoiNganNhatTheoLoai(string kind)
+        public QuanLyDongVat TimDVCoTuoiNhoNhatTheoLoai(LoaiDongVat kind)
         {
             QuanLyDongVat kq = TimLoai(kind);
-            return kq.TimALLDVCoTuoiMIN();
+            return kq.TimALLDVCoTuoi_Min();
         }
 
         //13.	Tìm danh sách các động vật biết bay
-        public List<IAnimal> TimAllDongVatBietBay()
+        public QuanLyDongVat DSDVBietBay()
         {
-            List<IAnimal> kq = null;
-            foreach (var i in ds)
-                if (i is IFlyable)
-                    kq.Add(i);
+            QuanLyDongVat kq = new QuanLyDongVat();
+            foreach (var x in ds)
+            {
+                if (x is IFlyable)
+                    kq.Them(x);
+            }
             return kq;
         }
 
-
         //14.	Tìm danh sách các động vật không biết bay
-        public List<IAnimal> TimAllDongVatKoBietBay()
+        public QuanLyDongVat DSDVKoBietBay()
         {
-            List<IAnimal> kq = null;
-            foreach (var i in ds)
-                if (!(i is IFlyable))
-                    kq.Add(i);
+            QuanLyDongVat kq = new QuanLyDongVat();
+            foreach (var x in ds)
+            {
+                if (!(x is IFlyable))
+                    kq.Them(x);
+            }
             return kq;
         }
 
         //15.	Sắp sếp theo chiều tăng, giảm của tên, tuổi
-       
-        public List<IAnimal> SapXepTangTheoTenTuoi(string name)
+        public QuanLyDongVat SapXepDVTangTheoTen()
+        { 
+            return new QuanLyDongVat { ds = ds.OrderBy(x => x.Name).ToList() };
+        }
+        public QuanLyDongVat SapXepDVGiamTheoTen()
         {
-            List<IAnimal> kq = new List<IAnimal>();
-            
-            return kq;
-           
+           return new QuanLyDongVat { ds = ds.OrderByDescending(x => x.Name).ToList() };
+        }
+        public QuanLyDongVat SapXepDVTangTheoTuoi()
+        {
+            return new QuanLyDongVat { ds = ds.OrderBy(x => x.Age).ToList() };
+        }
+        public QuanLyDongVat SapXepDVGiamTheoTuoi()
+        {
+            return new QuanLyDongVat { ds = ds.OrderByDescending(x => x.Age).ToList() };
         }
 
-        public void SapSepDVTangTheoTen()
+        //16.	Xóa tất cả động vật theo loài nào đó
+        public QuanLyDongVat XoaDVGiDo(LoaiDongVat loai)
         {
-            var tangtheoten = ds.OrderBy(x => x.Name);
-            foreach (var i in tangtheoten)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void SapSepDVGiamTheoTen()
-        {
-            var giamtheoten = ds.OrderByDescending(x => x.Name);
-            foreach (var i in giamtheoten)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void SapSepDVTangTheoTuoi()
-        {
-            var tang = ds.OrderBy(x => x.Age);
-            foreach (var i in tang)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void SapSepDVGiamTheoTuoi()
-        {
-            var giam = ds.OrderByDescending(x => x.Age);
-            foreach (var i in giam)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-        public void XoaDVGiDo(string loai)
-        {
-            if (loai == "Lion")
+            if (loai == LoaiDongVat.Lion)
             {
                 ds.RemoveAll(x => x is Lion);
             }
-            else if (loai == "Bat")
+            else if (loai == LoaiDongVat.Bat)
             {
                 ds.RemoveAll(x => x is Bat);
             }
-            else if (loai == "Bird")
+            else if (loai == LoaiDongVat.Bird)
             {
                 ds.RemoveAll(x => x is Bird);
             }
+            return this;
         }
-        public void XoaAllDongVatBietBay()
+
+        //17.	Xóa tất cả động vật biết bay, không biết bay
+        public void XoaAllDongVatBietBay(Fly flyable)
         {
             ds.RemoveAll(x => x is IFlyable);
 
         }
-        public void XoaAllDongVatKhongBietBay()
+        public void XoaAllDongVatKhongBietBay(Fly unflyable)
         {
             ds.RemoveAll(x => !(x is IFlyable));
 
         }
+        //18.	Xóa tất cả động vật biết bay theo tên, tuổi
+        public void XoaAllDongVatBietBayTheoTen(string name)
+        {
+            ds.RemoveAll(x => x.Name == name && x is IFlyable);
+        }
+
+        public void XoaAllDongVatBietBayTheoTuoi(int age)
+        {
+            ds.RemoveAll(x => x.Age == age && x is IFlyable);
+        }
+
+        //19.	Xóa tất cả động vật không biết bay theo tên, tuổi
+        public void XoaAllDongVatKhongBietBayTheoTen(string name)
+        {
+            ds.RemoveAll(x => x.Name == name && !(x is IFlyable));
+        }
+
+        public void XoaAllDongVatKhongBietBayTheoTuoi(int age)
+        {
+            ds.RemoveAll(x => x.Age == age && !(x is IFlyable));
+        }
+
+        //20.	Xóa tất cả động vật có tuổi nhỏ nhất, lớn nhất
         public void XoaAllDongVatCoTuoiNhoNhat()
         {
-            int tuoingannhat = ds.Min(x => x.Age);
-            ds.RemoveAll(x => x.Equals(tuoingannhat));
+            int tuoinhonhat = ds.Min(x => x.Age);
+            ds.RemoveAll(x => x.Age == tuoinhonhat);
         }
         public void XoaAllDongVatCoTuoiLonNhat()
         {
-            int lonnhat =ds.Max(x => x.Age);
-            ds.RemoveAll(x => x.Equals(lonnhat));
+            int tuoilonnhat = ds.Max(x => x.Age);
+            ds.RemoveAll(x => x.Age == tuoilonnhat);
         }
 
-        public void XoaAllDongVatCoTuoiLonNhatTheoLoai(string loai)
+        //21.	Xóa tất cả động vật theo loài có tuổi nhỏ nhất, lớn nhất
+        public void XoaAllDongVatCoTuoiLonNhatTheoLoai(LoaiDongVat loai)
         {
             int lonnhat = ds.Max(x => x.Age);
-            if (loai == "Lion")
+            if (loai == LoaiDongVat.Lion)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
-            else if (loai == "Bat")
+            else if (loai == LoaiDongVat.Bat)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
-            else if (loai == "Bird")
+            else if (loai == LoaiDongVat.Lion)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
         }
-        public void XoaAllDongVatCoTuoiNhoNhatTheoLoai(string loai)
+        public void XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat loai)
         {
             int lonnhat = ds.Min(x => x.Age);
-            if (loai == "Lion")
+            if (loai == LoaiDongVat.Lion)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
-            else if (loai == "Bat")
+            else if (loai == LoaiDongVat.Bat)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
-            else if (loai == "Bird")
+            else if (loai == LoaiDongVat.Bird)
             {
-                ds.RemoveAll(x => x.Equals(lonnhat));
+                ds.RemoveAll(x => x.Age == lonnhat);
             }
         }
 
-        public void XoaAllDongVatTaiViTriX()
+        //23.	Xóa động  vật tại vị trí x
+        public void XoaAllDongVatTaiViTriX(int x)
         {
-            Console.WriteLine("Nhap vao vi tri can xoa");
-            int vitri = int.Parse(Console.ReadLine());
-            ds.RemoveAt(vitri);
+            ds.RemoveAt(x);
         }
-        public int TinhTongTuoiDongVatTheoLoai()
+
+        //24.	Tính tổng tuổi của các động vật theo loài
+        public int TinhTongTuoiDongVatTheoLoai(LoaiDongVat loai)
         {
-            Console.Write("Nhap vao loai can tinh tong: ");
-            string loai = Console.ReadLine();
+            
             int kq = 0;
-            if (loai == "Lion")
+            if (loai == LoaiDongVat.Lion)
             {
                 kq = ds.Where(x => x is Lion).Sum(x => x.Age);
             }
-            else if (loai == "Bat")
+            else if (loai == LoaiDongVat.Bat)
             {
                 kq = ds.Where(x => x is Bat).Sum(x => x.Age);
             }
-            else if (loai == "Bird")
+            else if (loai == LoaiDongVat.Bird)
             {
                 kq = ds.Where(x => x is Bird).Sum(x => x.Age);
             }
             return kq;
         }
-        public int TinhTongTuoiDongVatBietBay()
+
+        //25.	Tính tổng tuổi của các động vật biết bay, không biết bay
+        public int TinhTongTuoiDongVatBietBay_KoBietBay(Fly fly)
         {
-            Console.Write("Nhap vao loai can tinh tong: ");
-            string loai = Console.ReadLine();
+            
             int kq = 0;
-            if (loai == "Lion" || loai == "Bird" || loai == "Bat")
+            if (Fly.Flyable == fly)
             {
                 kq = ds.Where(x => x is IFlyable).Sum(x => x.Age);
             }
+            else if(Fly.Unflyable == fly)
+            {
+                kq = ds.Where(x => !(x is IFlyable)).Sum(x => x.Age);
+            }   
             return kq;
         }
 
-
         //27.	Hiển thị danh sách theo danh sách chiều tăng giảm của tên, tuổi
 
-        public void HienThiDSTangTen()
-        {
-            var tangtheoten = ds.OrderBy(x => x.Name);
-            foreach (var item in tangtheoten)
-            {
-                Console.WriteLine(item);
-            }
-        }
-        public void HienThiDSGiamTen()
-        {
-            var tangtheoten = ds.OrderByDescending(x => x.Name);
-            foreach (var item in tangtheoten)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
-        public void HienThiDSGiamTuoi()
-        {
-            var tangtheoten = ds.OrderByDescending(x => x.Age);
-            foreach (var item in tangtheoten)
-            {
-                Console.WriteLine(item);
-            }
-        }
-        public void HienThiDSTangTuoi()
-        {
-            var tangtheoten = ds.OrderBy(x => x.Age);
-            foreach (var item in tangtheoten)
-            {
-                Console.WriteLine(item);
-            }
+        public QuanLyDongVat HienThiDSTangGiamCuaTenTuoi(Enum sort)
+        { 
+                switch (sort)
+                {
+                    case Sort.TangName:
+                        return SapXepDVTangTheoTen();
+                    case Sort.GiamName:
+                        return SapXepDVGiamTheoTen();
+                    case Sort.TangAge:
+                        return SapXepDVTangTheoTuoi();
+                    case Sort.GiamAge:
+                        return SapXepDVGiamTheoTuoi();
+                }
+            return this;
         }
 
-        public void HienThiDSNhomLion()
+        //public void HienThiDSTang_GiamTen()
+        //{
+        //    var tangtheoten = ds.OrderBy(x => x.Name);
+        //    foreach (var item in tangtheoten)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+        //public void HienThiDSGiamTen()
+        //{
+        //    var tangtheoten = ds.OrderByDescending(x => x.Name);
+        //    foreach (var item in tangtheoten)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+
+        //public void HienThiDSGiamTuoi()
+        //{
+        //    var tangtheoten = ds.OrderByDescending(x => x.Age);
+        //    foreach (var item in tangtheoten)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+        //public void HienThiDSTangTuoi()
+        //{
+        //    var tangtheoten = ds.OrderBy(x => x.Age);
+        //    foreach (var item in tangtheoten)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+
+        //28.	Hiển thị danh sách theo nhóm Bat, Lion, Bird
+        //public void HienThiDSNhomLion()
+        //{
+        //    var kq = ds.Where(x => x is Lion);
+        //    foreach (var item in kq)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+        //public void HienThiDSNhomBat()
+        //{
+        //    var kq = ds.Where(x => x is Bat);
+        //    foreach (var item in kq)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+        //public void HienThiDSNhomBird()
+        //{
+        //    var kq = ds.Where(x => x is Bird);
+        //    foreach (var item in kq)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+
+        public QuanLyDongVat XuatTheoLoai(LoaiDongVat loai)
         {
-            var kq = ds.Where(x => x is Lion);
-            foreach (var item in kq)
+            QuanLyDongVat kq = new QuanLyDongVat();
+            foreach (var dongVat in ds)
             {
-                Console.WriteLine(item);
+                if (dongVat.GetType().Name == loai.ToString())
+                {
+                    kq.Them(dongVat);
+                }    
             }
-        }
-        public void HienThiDSNhomBat()
-        {
-            var kq = ds.Where(x => x is Bat);
-            foreach (var item in kq)
-            {
-                Console.WriteLine(item);
-            }
-        }
-        public void HienThiDSNhomBird()
-        {
-            var kq = ds.Where(x => x is Bird);
-            foreach (var item in kq)
-            {
-                Console.WriteLine(item);
-            }
+            kq.Xuat();
+            return kq;
         }
 
-        public void HienThiDSNhomBirdTangTheoTen()
+        //29.	Hiển thị danh sách theo nhóm Bat, Lion, Bird, trong mỗi nhóm hiển thị theo chiều tăng, giảm của tên, tuổi.
+        //public void HienThiDSNhomBirdTangTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //public void HienThiDSNhomBirdGiamTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomBirdTangTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //public void HienThiDSNhomBirdGiamTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomBatTangTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomBatGiamTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomBatTangTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomBatGiamTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomLionTangTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomLionGiamTheoTen()
+        //{
+        //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Name);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomLionTangTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //public void HienThiDSNhomLionGiamTheoTuoi()
+        //{
+        //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Age);
+        //    foreach (var i in ketQua)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        public QuanLyDongVat HienThiDSTangGiamCuaTenTuoiTheoLoai(Enum loai, Enum sort)
         {
-            var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Name);
-            foreach (var i in ketQua)
+            if (loai is LoaiDongVat.Bat)
             {
-                Console.WriteLine(i);
+                switch (sort )
+                {
+                    case Sort.TangName:
+                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Bat);
+                    case Sort.GiamName:
+                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Bat);
+                    case Sort.TangAge:
+                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Bat);
+                    case Sort.GiamAge:
+                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Bat);
+                }
             }
+            else if (loai is LoaiDongVat.Lion )
+            {
+                switch (sort)
+                {
+                    case Sort.TangName:
+                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Lion);
+                    case Sort.GiamName:
+                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Lion);
+                    case Sort.TangAge:
+                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Lion);
+                    case Sort.GiamAge:
+                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Lion);
+                }
+            }
+            else if(loai is LoaiDongVat.Bird)
+            {
+                switch (sort)
+                {
+                    case Sort.TangName:
+                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Bird);
+                    case Sort.GiamName:
+                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Bird);
+                    case Sort.TangAge:
+                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Bird);
+                    case Sort.GiamAge:
+                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Bird);
+                }
+            }
+            return this;
         }
-        public void HienThiDSNhomBirdGiamTheoTen()
+        //7.	Tìm động vật có số lượng nhiều nhất, ít nhất.
+        public int TimSLDV_Min()
         {
-            var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Name);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
+            int min = int.MaxValue;
+            foreach (var loai in (LoaiDongVat[])Enum.GetValues(typeof(LoaiDongVat)))
+                if (min > DemSLTheoLoai(loai))
+                    min = DemSLTheoLoai(loai);
+            return min;
         }
 
-        public void HienThiDSNhomBirdTangTheoTuoi()
+        public int TimSLDV_Max()
         {
-            var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Age);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void HienThiDSNhomBirdGiamTheoTuoi()
-        {
-            var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Age);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
+            int max = 0;
+            foreach (var loai in (LoaiDongVat[])Enum.GetValues(typeof(LoaiDongVat)))
+                if (max < DemSLTheoLoai(loai))
+                    max = DemSLTheoLoai(loai);
+            return max;
         }
 
-        public void HienThiDSNhomBatTangTheoTen()
+        public void TimDongVatSL_Min()
         {
-            var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Name);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
+            int min = TimSLDV_Min();
+            foreach (var loai in (LoaiDongVat[])Enum.GetValues(typeof(LoaiDongVat)))
+                if (min == DemSLTheoLoai(loai))
+                {
+                    Console.WriteLine(loai);
+                    Console.WriteLine("Số lượng là " + DemSLTheoLoai(loai));
+                }
+            
+        }
+        public void TimDongVatSL_Max()
+        {
+            int max = TimSLDV_Max();
+            foreach (var loai in (LoaiDongVat[])Enum.GetValues(typeof(LoaiDongVat)))
+                if (max == DemSLTheoLoai(loai))
+                {
+                    Console.WriteLine(loai);
+                    Console.WriteLine("Số lượng là " + DemSLTheoLoai(loai));
+                }
         }
 
-        public void HienThiDSNhomBatGiamTheoTen()
-        {
-            var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Name);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
 
-        public void HienThiDSNhomBatTangTheoTuoi()
-        {
-            var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Age);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
 
-        public void HienThiDSNhomBatGiamTheoTuoi()
+        //30.	Lưu tất cả các câu hiển thị ở trên xuống File
+        public void XuatFile(string filename = "data.txt")
         {
-            var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Age);
-            foreach (var i in ketQua)
+            StreamWriter sw = new StreamWriter(filename);
+            foreach (var dongVat in ds)
             {
-                Console.WriteLine(i);
+                sw.WriteLine($"{(dongVat is Bat ? "Bat" : (dongVat is Lion) ? "Lion" : "Bird")},{dongVat.Name},{dongVat.Age}");
+                // sw.WriteLine($"{dongVat.GetType().Name},{dongVat.Name},{dongVat.Age}");
             }
+            sw.Close();
         }
-
-        public void HienThiDSNhomLionTangTheoTen()
-        {
-            var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Name);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-        public void HienThiDSNhomLionGiamTheoTen()
-        {
-            var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Name);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-        public void HienThiDSNhomLionTangTheoTuoi()
-        {
-            var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Age);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-        public void HienThiDSNhomLionGiamTheoTuoi()
-        {
-            var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Age);
-            foreach (var i in ketQua)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
     }
 }

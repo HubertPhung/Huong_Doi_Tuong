@@ -1,14 +1,7 @@
-﻿Lion,John,25
-Bird,Emily,30
-Bat,Michael,22
 Lion,Sarah,28
-Bird,David,35
-Bat,Jessica,27
 Lion,Christopher,29
 Bird,Ashley,26
 Bat,Daniel,31
-Lion,Amanda,24
-Bird,Olivia,33
 Lion,Ethan,32
 Bat,Sophia,29
 Lion,Mason,27
@@ -16,5 +9,4 @@ Bird,Isabella,28
 Bat,Elijah,31
 Lion,Mia,26
 Bird,Alexander,30
-Bat,Harper,34
-Lion,Benjamin,25
+Lion,Benjamin,29

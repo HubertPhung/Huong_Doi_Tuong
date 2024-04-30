@@ -18,3 +18,6 @@ Lion,Mia,26
 Bird,Alexander,30
 Bat,Harper,34
 Lion,Benjamin,25
+Lion,Benjamin,29
+Bat,Benjamin,20
+Lion,Mia,50

@@ -9,7 +9,7 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
     internal class Bat : IAnimal, IFlyable
     {
         public int Age { get; set; }
-        public string Name { get; set; }    
+        public string Name { get; set; }
         public Bat()
         {
 
@@ -40,7 +40,10 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 
         public override string ToString()
         {
-            return string.Format($"Kind :{"Bat"}\nName : {Name}\nAge : {Age}");
+            //return string.Format($"Kind :{"Bat"}\nName : {Name}\nAge : {Age}");
+            //return $"Kind :{"Bat"}\nName : {Name}\nAge : {Age}";
+            //return $"{"Bat".PadRight(10)}{Name.PadRight(10)}{Age}";
+            return $"{"Bat",-10}{Name,-11}{Age}";
         }
     }
 }

@@ -36,7 +36,7 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 
         public override string ToString()
         {
-            return string.Format($"Kind :{"Bird"}\nName : {Name}\nAge : {Age}");
+            return $"{"Bird",-10}{Name,-11}{Age}";
         }
     }
 }
