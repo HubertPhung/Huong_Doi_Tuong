@@ -223,29 +223,47 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
                         Console.WriteLine("Xóa tất cả động vật có tuổi lớn nhất");
                         ds.XoaAllDongVatCoTuoiLonNhat();
                         ds.Xuat();
-
                         break;
                     case ThucDon.XoaAllDongVatCoTuoiLonNhatTheoLoai:
                         Console.WriteLine("Xóa tất cả động vật có tuổi lớn nhất theo loài " + LoaiDongVat.Bat);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         ds.XoaAllDongVatCoTuoiLonNhatTheoLoai(LoaiDongVat.Bat);
-                        ds.XuatTheoLoai(LoaiDongVat.Bat);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         Console.WriteLine("Xóa tất cả động vật có tuổi lớn nhất theo loài " + LoaiDongVat.Lion);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Lion).Xuat();
                         ds.XoaAllDongVatCoTuoiLonNhatTheoLoai(LoaiDongVat.Lion);
-                        ds.XuatTheoLoai(LoaiDongVat.Lion);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Lion).Xuat();
                         Console.WriteLine("Xóa tất cả động vật có tuổi lớn nhất theo loài " + LoaiDongVat.Bird);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bird).Xuat();
                         ds.XoaAllDongVatCoTuoiLonNhatTheoLoai(LoaiDongVat.Bird);
-                        ds.XuatTheoLoai(LoaiDongVat.Bird);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bird).Xuat();
                         break;
                     case ThucDon.XoaAllDongVatCoTuoiNhoNhatTheoLoai:
+                       
                         Console.WriteLine("Xóa tất cả động vật có tuổi nhỏ nhất theo loài " + LoaiDongVat.Bat);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         ds.XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat.Bat);
-                        ds.XuatTheoLoai(LoaiDongVat.Bat);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         Console.WriteLine("Xóa tất cả động vật có tuổi nhỏ nhất theo loài " + LoaiDongVat.Lion);
-                        ds.XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat.Lion);
-                        ds.XuatTheoLoai(LoaiDongVat.Lion);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
+                        ds.XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat.Bat);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         Console.WriteLine("Xóa tất cả động vật có tuổi nhỏ nhất theo loài " + LoaiDongVat.Bird);
-                        ds.XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat.Bird);
-                        ds.XuatTheoLoai(LoaiDongVat.Bird);
+                        Console.WriteLine("Chưa Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
+                        ds.XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat.Bat);
+                        Console.WriteLine("Đã Xóa : ");
+                        ds.TimLoai(LoaiDongVat.Bat).Xuat();
                         break;
                     case ThucDon.XoaAllDongVatTaiViTriX:
                         ds.Xuat();

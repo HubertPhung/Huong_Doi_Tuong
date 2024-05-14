@@ -32,8 +32,22 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
         TangAge,
         GiamAge
     }
-    
-    
+
+    enum CasesToFind
+    {
+        TimDongVatBietBay,
+        TimDongVatBietBayTheoTen,
+        TimDongVatBietBayTheoTuoi,
+        TimDongVatTaiX,
+        TimDongVatNhoTuoiTheoLoai,
+        TimDongVatLonTuoiTheoLoai,
+        TimDongVatNhieuTuoiNhat,
+        TimDongVatNhoTuoiNhat,
+        TimDongVatKhongBietBayTheoTen,
+        TimDongVatKhongBietBayTheoTuoi,
+    }
+
+
     internal class QuanLyDongVat
     {
         List<IAnimal> ds = new List<IAnimal>();
@@ -324,6 +338,7 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
         }
 
         //16.	Xóa tất cả động vật theo loài nào đó
+        
         public QuanLyDongVat XoaDVGiDo(LoaiDongVat loai)
         {
             if (loai == LoaiDongVat.Lion)
@@ -389,34 +404,39 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
         //21.	Xóa tất cả động vật theo loài có tuổi nhỏ nhất, lớn nhất
         public void XoaAllDongVatCoTuoiLonNhatTheoLoai(LoaiDongVat loai)
         {
-            int lonnhat = ds.Max(x => x.Age);
+            
             if (loai == LoaiDongVat.Lion)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Lion).Max(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Lion);
             }
             else if (loai == LoaiDongVat.Bat)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Bat).Max(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Bat);
             }
-            else if (loai == LoaiDongVat.Lion)
+            else if (loai == LoaiDongVat.Bird)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Bird).Max(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Bird);
             }
         }
         public void XoaAllDongVatCoTuoiNhoNhatTheoLoai(LoaiDongVat loai)
         {
-            int lonnhat = ds.Min(x => x.Age);
             if (loai == LoaiDongVat.Lion)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Lion).Min(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Lion);
             }
             else if (loai == LoaiDongVat.Bat)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Bat).Min(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Bat);
             }
             else if (loai == LoaiDongVat.Bird)
             {
-                ds.RemoveAll(x => x.Age == lonnhat);
+                int age = ds.FindAll(y => y is Bird).Min(y => y.Age);
+                ds.RemoveAll(x => x.Age == age && x is Bird);
             }
         }
 
@@ -469,13 +489,13 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
                 switch (sort)
                 {
                     case Sort.TangName:
-                        return SapXepDVTangTheoTen();
+                        return SapXepDVTangTheoTen().XuatTheoLoai((LoaiDongVat)sort);
                     case Sort.GiamName:
-                        return SapXepDVGiamTheoTen();
+                        return SapXepDVGiamTheoTen().XuatTheoLoai((LoaiDongVat)sort);
                     case Sort.TangAge:
-                        return SapXepDVTangTheoTuoi();
+                        return SapXepDVTangTheoTuoi().XuatTheoLoai((LoaiDongVat)sort);
                     case Sort.GiamAge:
-                        return SapXepDVGiamTheoTuoi();
+                        return SapXepDVGiamTheoTuoi().XuatTheoLoai((LoaiDongVat)sort);
                 }
             return this;
         }
@@ -542,171 +562,149 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
 
         public QuanLyDongVat XuatTheoLoai(LoaiDongVat loai)
         {
-            QuanLyDongVat kq = new QuanLyDongVat();
-            foreach (var dongVat in ds)
-            {
-                if (dongVat.GetType().Name == loai.ToString())
-                {
-                    kq.Them(dongVat);
-                }    
-            }
-            kq.Xuat();
-            return kq;
+            //QuanLyDongVat kq = new QuanLyDongVat();
+            //foreach (var dongVat in ds)
+            //{
+            //    if (dongVat.GetType().Name == loai.ToString())
+            //    {
+            //        kq.Them(dongVat);
+            //    }    
+            //}
+            //Xuat();
+            //return kq;
+            TimLoai(loai).Xuat();
+            return this;
         }
 
         //29.	Hiển thị danh sách theo nhóm Bat, Lion, Bird, trong mỗi nhóm hiển thị theo chiều tăng, giảm của tên, tuổi.
-        //public void HienThiDSNhomBirdTangTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-        //public void HienThiDSNhomBirdGiamTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomBirdTangTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-        //public void HienThiDSNhomBirdGiamTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomBatTangTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomBatGiamTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomBatTangTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomBatGiamTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomLionTangTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomLionGiamTheoTen()
-        //{
-        //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Name);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomLionTangTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
-
-        //public void HienThiDSNhomLionGiamTheoTuoi()
-        //{
-        //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Age);
-        //    foreach (var i in ketQua)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
 
         public QuanLyDongVat HienThiDSTangGiamCuaTenTuoiTheoLoai(Enum loai, Enum sort)
         {
-            if (loai is LoaiDongVat.Bat)
-            {
-                switch (sort )
-                {
-                    case Sort.TangName:
-                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Bat);
-                    case Sort.GiamName:
-                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Bat);
-                    case Sort.TangAge:
-                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Bat);
-                    case Sort.GiamAge:
-                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Bat);
-                }
-            }
-            else if (loai is LoaiDongVat.Lion )
+            if (loai is LoaiDongVat)
             {
                 switch (sort)
                 {
                     case Sort.TangName:
-                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Lion);
+                        return SapXepDVTangTheoTen().XuatTheoLoai((LoaiDongVat)loai);
                     case Sort.GiamName:
-                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Lion);
+                        return SapXepDVGiamTheoTen().XuatTheoLoai((LoaiDongVat)loai);
                     case Sort.TangAge:
-                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Lion);
+                        return SapXepDVTangTheoTuoi().XuatTheoLoai((LoaiDongVat)loai);
                     case Sort.GiamAge:
-                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Lion);
-                }
-            }
-            else if(loai is LoaiDongVat.Bird)
-            {
-                switch (sort)
-                {
-                    case Sort.TangName:
-                        return SapXepDVTangTheoTen().XuatTheoLoai(LoaiDongVat.Bird);
-                    case Sort.GiamName:
-                        return SapXepDVGiamTheoTen().XuatTheoLoai(LoaiDongVat.Bird);
-                    case Sort.TangAge:
-                        return SapXepDVTangTheoTuoi().XuatTheoLoai(LoaiDongVat.Bird);
-                    case Sort.GiamAge:
-                        return SapXepDVGiamTheoTuoi().XuatTheoLoai(LoaiDongVat.Bird);
+                        return SapXepDVGiamTheoTuoi().XuatTheoLoai((LoaiDongVat)loai);
                 }
             }
             return this;
         }
+
+            //public void HienThiDSNhomBirdTangTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            //public void HienThiDSNhomBirdGiamTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomBirdTangTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Bird).OrderBy(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            //public void HienThiDSNhomBirdGiamTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Bird).OrderByDescending(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomBatTangTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomBatGiamTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomBatTangTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Bat).OrderBy(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomBatGiamTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Bat).OrderByDescending(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomLionTangTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomLionGiamTheoTen()
+            //{
+            //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Name);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomLionTangTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Lion).OrderBy(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //public void HienThiDSNhomLionGiamTheoTuoi()
+            //{
+            //    var ketQua = ds.Where(x => x is Lion).OrderByDescending(x => x.Age);
+            //    foreach (var i in ketQua)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+
+        
         //7.	Tìm động vật có số lượng nhiều nhất, ít nhất.
         public int TimSLDV_Min()
         {
@@ -761,5 +759,75 @@ namespace _2312585_PNHBo_QuanLiDongVatVaDaKeThua
             }
             sw.Close();
         }
+
+
+        public Predicate<IAnimal> TimTheoYeuCau(CasesToFind cases, object obj)
+        {
+            int age = 0;
+            switch (cases)
+            {
+                case CasesToFind.TimDongVatBietBay:
+                    return x => x is IFlyable;
+                case CasesToFind.TimDongVatBietBayTheoTen:
+                    return x => x is IFlyable && x.Name == obj.ToString();
+                case CasesToFind.TimDongVatBietBayTheoTuoi:
+                    //return x => x is IFlyable && x.Age == int.Parse(obj.ToString());
+                    return x => x is IFlyable && x.Age == Convert.ToInt32(obj);
+                case CasesToFind.TimDongVatTaiX:
+                    return x => x == ds[Convert.ToInt32(obj)];
+                case CasesToFind.TimDongVatNhoTuoiTheoLoai:
+                    if (Convert.ToInt32(obj) == (int)LoaiDongVat.Lion)
+                    {
+                        age = ds.FindAll(y => y is Lion).Min(y => y.Age);
+                        return x => x.Age == age && x is Lion;
+                    }
+                    else if (Convert.ToInt32(obj) == (int)LoaiDongVat.Bat)
+                    {
+                        age = ds.FindAll(y => y is Bat).Min(y => y.Age);
+                        return x => x.Age == age && x is Bat;
+                    }
+                    else if (Convert.ToInt32(obj) == (int)LoaiDongVat.Bird)
+                    {
+                        age = ds.FindAll(y => y is Bird).Min(y => y.Age);
+                        return x => x.Age == age && x is Bird;
+                    }
+                    return null;
+                case CasesToFind.TimDongVatLonTuoiTheoLoai:
+                    if (Convert.ToInt32(obj) == (int)LoaiDongVat.Lion)
+                    {
+                        age = ds.FindAll(y => y is Lion).Max(y => y.Age);
+                        return x => x.Age == age && x is Lion;
+                    }
+                    else if (Convert.ToInt32(obj) == (int)LoaiDongVat.Bat)
+                    {
+                        age = ds.FindAll(y => y is Bat).Max(y => y.Age);
+                        return x => x.Age == age && x is Bat;
+                    }
+                    else if (Convert.ToInt32(obj) == (int)LoaiDongVat.Bird)
+                    {
+                        age = ds.FindAll(y => y is Bird).Max(y => y.Age);
+                        return x => x.Age == age && x is Bird;
+                    }
+                    return null;
+                case CasesToFind.TimDongVatNhieuTuoiNhat:
+                    age = ds.Max(x => x.Age);
+                    return x => x.Age == age;
+                case CasesToFind.TimDongVatNhoTuoiNhat:
+                    age = ds.Min(x => x.Age);
+                    return x => x.Age == age;
+                case CasesToFind.TimDongVatKhongBietBayTheoTen:
+                    return x => x.Name == obj.ToString() && !(x is IFlyable);
+                case CasesToFind.TimDongVatKhongBietBayTheoTuoi:
+                    return x => x.Age == Convert.ToInt32(obj) && !(x is IFlyable);
+                    //Tim theo tung loai
+            }
+            return null;
+        }
+
+        public void XoaTheoYeuCau(Predicate<IAnimal> predicate)
+        {
+            ds.RemoveAll(predicate);
+        }
+
     }
 }
