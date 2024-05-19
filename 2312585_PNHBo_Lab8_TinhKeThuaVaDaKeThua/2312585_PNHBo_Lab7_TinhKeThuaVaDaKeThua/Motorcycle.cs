@@ -26,7 +26,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
         public override string ToString()
         {
-            return string.Format($"{"Motorcycle",-10} {Ten,-16} {TocDo,-10}");
+            return string.Format($"{"Motorcycle",-10} {base.ToString()}");
         }
     }
 }

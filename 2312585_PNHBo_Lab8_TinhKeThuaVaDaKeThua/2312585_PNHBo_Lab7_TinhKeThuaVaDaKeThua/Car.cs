@@ -8,12 +8,12 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 {
     internal class Car : Vehicle , ICar
     {
+        public int SoChoNgoi { get; set; }
         public Car(string ten, int tocDo, int soChoNgoi) : base(ten, tocDo)
         {
             SoChoNgoi = soChoNgoi;
         }
 
-        public int SoChoNgoi { get; set; }
 
         public Car(string tb) : base(tb) 
         {
@@ -39,7 +39,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
         public override string ToString()
         {
-            return  string.Format($"{"Car",-10} {Ten,-16} {TocDo, -10} {SoChoNgoi}");
+            return  string.Format($"{"Car":-10} {base.ToString()} {SoChoNgoi}");
         }
 
     }

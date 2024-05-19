@@ -35,7 +35,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
         public override string ToString()
         {
-            return $"{Ten,-10} {TocDo,-15}";
+            return $"{Ten,-16} {TocDo,-10}";
         }
     }
 }
