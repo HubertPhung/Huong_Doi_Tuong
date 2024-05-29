@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 {
-    internal class Car : Vehicle , ICar
+    public class Car : Vehicle , ICar
     {
         public int SoChoNgoi { get; set; }
-        public Car(string ten, int tocDo, int soChoNgoi) : base(ten, tocDo)
+        public Car(string ten, int tocDo, int soChoNgoi, string maphuongtien, string chusohuu) : base(ten, tocDo, maphuongtien, chusohuu)
         {
             SoChoNgoi = soChoNgoi;
         }
@@ -32,6 +32,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
             Console.WriteLine("Car is closing the door");
         }
+
         public void MoCua()
         {
             Console.WriteLine("Car is opening the door");
@@ -39,7 +40,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
         public override string ToString()
         {
-            return  string.Format($"{"Car":-10} {base.ToString()} {SoChoNgoi}");
+            return  string.Format($"{"Car",-10} {base.ToString()} {SoChoNgoi}");
         }
 
     }

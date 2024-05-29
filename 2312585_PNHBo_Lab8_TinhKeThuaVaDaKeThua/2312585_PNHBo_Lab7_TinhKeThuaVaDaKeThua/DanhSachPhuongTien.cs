@@ -14,7 +14,7 @@ using System.Xml;
 
 namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 {
-    enum LoaiPhuongTien
+    public enum LoaiPhuongTien
     {
         Car,
         Motorcycle,
@@ -22,8 +22,9 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         CarOrMotorcycle,
         All
     }
-    enum LoaiDieuKien
+    public enum LoaiDieuKien
     {
+        ChuSoHuu,
         Ten,
         SoChoNgoi,
         TocDo,
@@ -32,20 +33,20 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         SoChoNgoivaTocDo,
         TenvaSoChoNgoivaTocDo
     }
-    enum LoaiSoSanh
+    public enum LoaiSoSanh
     {
         LonNhat,
         NhoNhat,
         DaiNhat,
         NganNhat
     }
-    enum TimKiemMaxMin
+    public enum TimKiemMaxMin
     {
         Max,
         Min
     }
 
-    enum SapXep
+    public enum SapXep
     {
         Giam,
         Tang
@@ -53,10 +54,10 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
 
 
-    internal class DanhSachPhuongTien
+    public class DanhSachPhuongTien
     {
         List<IVehicle> collection = new List<IVehicle>();
-
+        public int SoLuongPT() => collection.Count;
         public void Them(IVehicle vehicle)
         {
             collection.Add(vehicle);
@@ -70,21 +71,23 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         public void NhapTuFile(string tenFile)
         {
             StreamReader sr = new StreamReader(tenFile);
-            string s = "".Trim();
-
+            string s = "";
+            IVehicle x = null;
             while ((s = sr.ReadLine()) != null)
             {
-                string[] t = s.Split(',');
-                if (t[0] == "Car")
+                
+                var t = s.Split(',');
+                if ( t[0][0] == 'C')
                 {
-                    IVehicle car = new Car(t[1], int.Parse(t[2]), int.Parse(t[3]));
-                    collection.Add(car);
+                    x = new Car(t[1], int.Parse(t[2]), int.Parse(t[3]), t[0], t[4]);
+                    
                 }
-                else if (t[0] == "Motorcycle")
+                else if ( t[0][0] == 'M')
                 {
-                    IVehicle motorcycle = new Motorcycle(t[1], int.Parse(t[2]));
-                    collection.Add(motorcycle);
+                    x = new Motorcycle(t[1], int.Parse(t[2]), t[0], t[3]);
+
                 }
+                collection.Add(x);
 
             }
             sr.Close();
@@ -93,7 +96,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            Console.WriteLine($"{"STT",-5}{"Loại",-11}{"Tên Hãng",-17}{"Tốc Độ",-11}Chỗ Ngồi");
+            Console.WriteLine($"{"STT",-5}{"Loại",-11}{"Mã PT",-15}{"Tên Hãng",-17}{"Tốc Độ",-11}Chỗ Ngồi");
             for (var i = 0; i < collection.Count; i++)
             {
                 sb.AppendLine($"{i + 1,-5}{collection[i]}");
@@ -299,13 +302,15 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         }
 
         // Loại Điều Kiện
-        public DanhSachPhuongTien TimDSDieuKien(LoaiDieuKien loai, string ten, int soChoNgoi, int tocDo)
+        public DanhSachPhuongTien TimDSDieuKien(LoaiDieuKien loai, string ten, int soChoNgoi , int tocDo, string chusohuu)
         {
             DanhSachPhuongTien kq = new DanhSachPhuongTien();
             foreach (var x in collection)
             {
                 switch (loai)
                 {
+                    case LoaiDieuKien.ChuSoHuu:
+                        if (x.ChuSoHuu == chusohuu) kq.Them(x); continue;
                     case LoaiDieuKien.Ten:
                         if (x.Ten == ten) kq.Them(x); continue;
                     case LoaiDieuKien.SoChoNgoi:
@@ -381,25 +386,25 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                 switch ( loaidk )
                 {
                     case LoaiDieuKien.Ten:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk,ten,0,0);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk,ten,0,0,null);
                        
                     case LoaiDieuKien.SoChoNgoi:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, soChoNgoi, 0);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, soChoNgoi, 0,null);
                         
                     case LoaiDieuKien.TocDo:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, 0, tocDo);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, 0, tocDo, null);
                         
                     case LoaiDieuKien.TenvaSoChoNgoi:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, soChoNgoi, 0);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, soChoNgoi, 0, null);
                         
                     case LoaiDieuKien.TenvaTocDo:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, 0, tocDo);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, 0, tocDo,null);
 
                     case LoaiDieuKien.SoChoNgoivaTocDo:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, soChoNgoi, tocDo);
+                        return kq = TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, null, soChoNgoi, tocDo, null);
                         
                     case LoaiDieuKien.TenvaSoChoNgoivaTocDo:
-                        return kq.TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, soChoNgoi, tocDo);
+                        return kq =TimDSPhuongTien(loaipt).TimDSDieuKien(loaidk, ten, soChoNgoi, tocDo, null);
                
             }
             return kq;
@@ -605,54 +610,19 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
         }
 
-        //public void XoaTheoLoaiPhuongTien(LoaiPhuongTien loai)
-        //{
-        //    if(loai == LoaiPhuongTien.Car)
-        //    {
-        //        collection.RemoveAll(x  => x is Car);   
-        //    }
-        //    else if (loai == LoaiPhuongTien.Motorcycle)
-        //    {
-        //        collection.RemoveAll(x => x is Motorcycle);
-        //    }
-        //    else if ( loai == LoaiPhuongTien.CarAndMotorcycle)
-        //    {
-        //        collection.RemoveAll(x => x is Car && x is Motorcycle);
-        //    }
-        //    else if(loai == LoaiPhuongTien.CarOrMotorcycle)
-        //    {
-        //        collection.RemoveAll(x => x is Car || x is Motorcycle);
-        //    }
-
-        //}
+        
 
         // Loại Điều Kiện
-        public void XoaTheoLoaiDieuKien(LoaiDieuKien loai, string ten, int soChoNgoi, int tocDo)
+        public void XoaTheoLoaiDieuKien(LoaiDieuKien loai, string ten, int soChoNgoi, int tocDo, string chusohuu)
         {
-            var ds = TimDSDieuKien(loai, ten, soChoNgoi, tocDo);
+            var ds = TimDSDieuKien(loai, ten, soChoNgoi, tocDo, chusohuu);
             foreach (var x in ds.collection)
             {
                 Xoa(x);
             }
         }
 
-        //public void XoaTheoLoaiDieuKien(LoaiDieuKien loai, string ten, int soChoNgoi , int tocDo )
-        //{
-        //    collection.RemoveAll(x =>
-        //    {
-        //        switch (loai)
-        //        {
-        //            case LoaiDieuKien.Ten:
-        //                return x.Ten == ten;
-        //            case LoaiDieuKien.SoChoNgoi:
-        //                return x is Car car && car.SoChoNgoi == soChoNgoi;
-        //            case LoaiDieuKien.TocDo:
-        //                return x.TocDo == tocDo;
-        //            default:
-        //                return false;
-        //        }
-        //    });
-        //}
+        
 
         // Loại So Sánh
         public void XoaTheoLoaiSoSanh(LoaiSoSanh loai, LoaiDieuKien loaidk)
@@ -767,6 +737,21 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
         }
 
+        //6.Tìm loại phương tiện chưa có khách hàng sở hữu.
+
+        public DanhSachPhuongTien TimDSPhuongTienChuaCoChuSoHuu()
+        {
+            DanhSachPhuongTien kq = new DanhSachPhuongTien();
+            foreach (var x in collection)
+            {
+                if (x.ChuSoHuu == "")
+                {
+                    kq.Them(x);
+                }
+            }
+            return kq;
+
+        }
     }
 }
 

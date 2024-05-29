@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 {
-    internal interface IMotorcycle
+    public interface IMotorcycle
     {
         void TangToc();
         void GiamToc();

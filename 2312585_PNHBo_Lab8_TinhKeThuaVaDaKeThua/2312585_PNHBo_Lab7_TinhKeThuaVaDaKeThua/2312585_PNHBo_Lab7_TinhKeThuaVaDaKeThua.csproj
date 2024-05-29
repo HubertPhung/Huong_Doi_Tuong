@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="DanhSachKhachHang.cs" />
     <Compile Include="DanhSachPhuongTien.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="IMotorcycle.cs" />
     <Compile Include="IVehicle.cs" />
+    <Compile Include="KhachHang.cs" />
     <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,7 +59,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data.txt">
+    <Content Include="dspt.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dskh.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

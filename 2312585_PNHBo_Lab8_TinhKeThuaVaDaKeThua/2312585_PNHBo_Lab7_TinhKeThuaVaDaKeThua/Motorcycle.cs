@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 {
-    internal class Motorcycle : Vehicle, IMotorcycle
+    public class Motorcycle : Vehicle, IMotorcycle
     {
-        public Motorcycle(string ten, int tocDo) : base(ten, tocDo)
+        public Motorcycle(string ten, int tocDo, string maphuongtien, string chusohuu) : base(ten, tocDo, maphuongtien, chusohuu)
         {
         }
 

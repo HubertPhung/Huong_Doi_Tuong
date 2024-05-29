@@ -1,0 +1,10 @@
+﻿Chè Thái,Sầu Riêng - Nước cốt dừa - Sương sáo - Hạt é,4
+Chè Thái,Sầu Dừa - Đường - Hạt Sen - Sương sáo,4
+Chè Thái,Sầu Dừa - Hạt É - Sương Sáo - Đường,4
+Chè Thái,Đậu Phộng - Sữa Đậu Nành - Nước Cốt Dừa,4
+chè Thái,Dừa - Hạt É - Bí Ngô - Khoai Lang,4
+chè Thái,Sầu Dừa - Hạt É - Bánh Lot - Thạch Rau Câu,4
+Chè Đậu Xanh,Đậu Xanh - Đường - Nước Cốt Dừa,4
+Chè Đậu Xanh,Đậu Xanh - Sữa Đậu Nành - Nước Cốt Dừa,4
+Chè Đậu Xanh,Đậu Xanh - Hạt Sen - Sương Sáo,4
+Chè Đậu Xanh,Đậu Xanh - Bột Bánh Lot - Thạch Rau Câu,4

@@ -6,7 +6,6 @@ D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj.CoreCompileInputs.cache
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.exe
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.pdb
-D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\data.txt
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.exe.config
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.exe
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.pdb
@@ -14,3 +13,5 @@ D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj.CoreCompileInputs.cache
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.exe
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\obj\Debug\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\dspt.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\bin\Debug\dskh.txt
