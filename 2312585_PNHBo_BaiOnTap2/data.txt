@@ -1,0 +1,12 @@
+﻿Nguyen,Van A,123,Phong A,1000
+Tran,Thi B,124,Phong B,222
+Le,Van C,125,Phong C,123
+Pham,Thi D,126,Phong D,489
+Hoang,Van E,127,Phong E,600
+Vo,Thi F,128,Phong F,800
+Dang,Van G,129,Phong A,1000
+Bui,Thi H,130,Phong C,900
+Do,Van I,131,Phong E,200
+Ngo,Thi J,132,Phong A,250
+Nguyen,Van K,133,Phong E,1000
+Tran,Thi L,134,Phong B,500

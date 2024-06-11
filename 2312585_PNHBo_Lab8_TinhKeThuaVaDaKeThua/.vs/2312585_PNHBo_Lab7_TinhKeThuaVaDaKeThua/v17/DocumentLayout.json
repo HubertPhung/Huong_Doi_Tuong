@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachphuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachphuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab8_tinhkethuavadakethua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\imotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\imotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_lab8_tinhkethuavadakethua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachphuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\danhsachphuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\dskh.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\dskh.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\dspt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\dspt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_pnhbo_lab7_tinhkethuavadakethua\\dskh.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A837347-9BD0-4C48-988B-0E22A0EA0606}|2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua.csproj|solutionrelative:2312585_pnhbo_lab7_tinhkethuavadakethua\\dskh.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Car.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Car.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Car.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:59:34.352Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICar.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\ICar.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\ICar.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\ICar.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\ICar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:59:02.451Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Vehicle.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Vehicle.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Vehicle.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Vehicle.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:58:56.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Motorcycle.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Motorcycle.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Motorcycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:58:44.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMotorcycle.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IMotorcycle.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IMotorcycle.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IMotorcycle.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IMotorcycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:58:36.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IVehicle.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IVehicle.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IVehicle.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IVehicle.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\IVehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:58:35.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DanhSachPhuongTien.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
+              "ViewState": "AQIAAGoCAAAAAAAAAAAAAEEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T12:25:03.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "dskh.txt",
               "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dskh.txt",
               "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dskh.txt",
               "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dskh.txt",
               "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dskh.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-05-24T14:45:59.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\KhachHang.cs",
               "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\KhachHang.cs",
               "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\KhachHang.cs",
               "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\KhachHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:40:37.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T14:40:37.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
-              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
-              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
-              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
-              "ViewState": "AQIAABEDAAAAAAAAAAAAACUDAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:33:48.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "dspt.txt",
               "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dspt.txt",
               "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dspt.txt",
               "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dspt.txt",
               "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\dspt.txt",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-05-24T14:30:37.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DanhSachKhachHang.cs",
               "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachKhachHang.cs",
               "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachKhachHang.cs",
               "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachKhachHang.cs",
               "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachKhachHang.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwG4AAAA9AAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAuwNgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T14:19:38.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DanhSachPhuongTien.cs",
-              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
-              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
-              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
-              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\DanhSachPhuongTien.cs",
-              "ViewState": "AQIAAJ8BAAAAAAAAAAAAwOoCAAAlAAAA",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
+              "RelativeDocumentMoniker": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_Lab8_TinhKeThuaVaDaKeThua\\2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
+              "RelativeToolTip": "2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:19:41.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T14:33:48.496Z"
             }
           ]
         }

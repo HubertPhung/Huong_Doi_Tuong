@@ -1,0 +1,8 @@
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\bin\Debug\DeOnTap2.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\bin\Debug\DeOnTap2.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\bin\Debug\DeOnTap2.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\obj\Debug\DeOnTap2.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\obj\Debug\DeOnTap2.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\obj\Debug\DeOnTap2.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\obj\Debug\DeOnTap2.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\DeOnTap2\bin\Debug\dsnhanvien.txt

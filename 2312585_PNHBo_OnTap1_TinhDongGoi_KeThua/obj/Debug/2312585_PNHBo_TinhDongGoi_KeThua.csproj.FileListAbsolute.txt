@@ -1,0 +1,8 @@
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\bin\Debug\data.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\bin\Debug\2312585_PNHBo_TinhDongGoi_KeThua.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\bin\Debug\2312585_PNHBo_TinhDongGoi_KeThua.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\bin\Debug\2312585_PNHBo_TinhDongGoi_KeThua.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\obj\Debug\2312585_PNHBo_TinhDongGoi_KeThua.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\obj\Debug\2312585_PNHBo_TinhDongGoi_KeThua.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\obj\Debug\2312585_PNHBo_TinhDongGoi_KeThua.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_OnTap1_TinhDongGoi_KeThua\obj\Debug\2312585_PNHBo_TinhDongGoi_KeThua.pdb

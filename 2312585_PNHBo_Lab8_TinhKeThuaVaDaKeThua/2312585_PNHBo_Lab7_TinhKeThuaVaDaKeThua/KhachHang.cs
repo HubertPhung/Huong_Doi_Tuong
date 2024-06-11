@@ -12,6 +12,8 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         public string SoCCCD { get; set; }
         public string HoTen { get; set; }
         public string DiaChi { get; set; }
+        private string thanhPho {  get; set; }
+        private string tinh {  get; set; }
         public DanhSachPhuongTien dspt {  get; set; }
 
         public KhachHang(string soCCCD, string hoTen, string diaChi)
@@ -40,10 +42,18 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
         }
 
-        public string ThanhPho()
+        public string ThanhPho
         {
-            return DiaChi.Split(',')[2];
+            get { return thanhPho = DiaChi.Split(',')[1]; }
+            set { thanhPho = value; }
         }
+
+        public string Tinh
+        {
+            get { return tinh = DiaChi.Split(',')[2]; }
+            set { tinh = value; }
+        }
+       
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

@@ -13,8 +13,8 @@ namespace _2312805_TNNY_Lab6
             Console.OutputEncoding = Encoding.UTF8;
             Menu mn = new Menu();
             mn.ChayChuongTrinh();
-            //DanhSachAnPham ds = new DanhSachAnPham();
-            //ds.NhapTuFile();
+            DanhSachAnPham ds = new DanhSachAnPham();
+            ds.NhapTuFile();
             //Console.WriteLine(ds);
             //ds.SapXepTheoTen();
             //Console.WriteLine(" An pham co gia cao nhat " + ds.TimAnPhamCoGiaCaoNhat());

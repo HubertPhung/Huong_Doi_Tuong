@@ -1,0 +1,13 @@
+﻿  Fraction.cpp
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1EAD' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1ED1' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1ECB' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1EED' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(143,10): warning C4566: character represented by universal-character-name '\u1EAB' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(146,10): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(146,10): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+C:\Users\phung\Downloads\Fraction\Fraction.cpp(146,10): warning C4566: character represented by universal-character-name '\u1EAD' cannot be represented in the current code page (1252)
+  BaiThiCuaLinh.vcxproj -> D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\BaiThiCuaLinh\x64\Debug\BaiThiCuaLinh.exe

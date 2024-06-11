@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             Console.OutputEncoding = Encoding.UTF8;
             DanhSachPhuongTien dspt = new DanhSachPhuongTien();
             DanhSachKhachHang dskh = new DanhSachKhachHang();
+            
             while (true)
             {
                 Console.Clear();
@@ -25,11 +27,11 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                 }
                 Console.WriteLine("===========================================================================================");
                 Console.Write("Nhập số Menu : ");
-               
-                
+
                 ThucDon chon = (ThucDon)int.Parse(Console.ReadLine());
                 switch (chon)
                 {
+                    #region Phuong Tien
                     case ThucDon.NhapTuFile:
                         dspt.NhapTuFile("dspt.txt");
 
@@ -739,6 +741,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                         Console.WriteLine("Sắp xếp danh sách Motorcycle giảm dần theo tốc độ:");
                         dspt.SapXepTheoLoaiPhuongTienVaDieuKien(LoaiPhuongTien.Motorcycle, LoaiDieuKien.TocDo, SapXep.Giam).Xuat();
                         break;
+                    #endregion
                     case ThucDon.NhapFileDSKH:
                         dskh.DocFile(dspt);
                         break;
@@ -764,9 +767,8 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                     case ThucDon.TimDSKHTheoTen:
                         dskh.Xuat();
                         Console.Write("Nhập họ tên khách hàng cần tìm : ");
-                        string ten21 = Console.ReadLine();
-                        dskh.TimDSKHTheoTen(ten21).Xuat();
-
+                        string hoten21 = Console.ReadLine();
+                        dskh.TimDSKHTheoTen(hoten21).Xuat();
                         break;
                     case ThucDon.TimDSKHTheoCCCD:
                         dskh.Xuat();
@@ -793,17 +795,102 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                         dskh.TimDSKHSoHuuItNhatTheoPT(LoaiPhuongTien.Motorcycle).Xuat();
                         break;
                     case ThucDon.TimDSKHSoHuuNhieuNhatTheoTenHang:
-                        Console.WriteLine("Nhập tên hãng cần tìm : ");
+                        Console.Write("Nhập tên hãng cần tìm : ");
                         string tenhang = Console.ReadLine();
                         dskh.TimDSKHSoHuuNhieuNhatTheoTenHang(tenhang).Xuat();
                         break;
                     case ThucDon.TimDSKHSoHuuItNhatTheoTenHang:
-                        Console.WriteLine("Nhập tên hãng cần tìm : ");
+                        Console.Write("Nhập tên hãng cần tìm : ");
                         string tenhang1 = Console.ReadLine();
                         dskh.TimDSKHSoHuuItNhatTheoTenHang(tenhang1).Xuat();
                         break;
                     case ThucDon.TimDSPhuongTienChuaCoChuSoHuu:
                         dspt.TimDSPhuongTienChuaCoChuSoHuu().Xuat();
+                        break;
+                    case ThucDon.TimTpCoNhieuLoaiCarNhat:
+                        Console.WriteLine("Thành phố có Car nhiều nhất: ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoNhieuLoaiCarNhat());
+                        break;
+                    case ThucDon.TimTpCoItLoaiCarNhat:
+                        Console.WriteLine("Thành phố có Car ít nhất: ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoItLoaiCarNhat());
+                        break;
+                    case ThucDon.TimTpCoNhieuLoaiMotorcycleNhat:
+                        Console.WriteLine("Thành phố có Motorcycle nhiều nhất: ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoNhieuLoaiMotorcycleNhat());
+                        break;
+                    case ThucDon.TimTpCoItLoaiMotorcycleNhat:
+                        Console.WriteLine("Thành phố có Motorcycle ít nhất: ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoItLoaiMotorcycleNhat());
+                        break;
+                    case ThucDon.TimTpCoNhieuLoaiCarAndMotocycleNhat:
+                        Console.WriteLine("Thành Phố có nhiều phương tiện Car và Motorcycle nhất là : ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoNhieuLoaiCarAndMotocycleNhat());
+                        break;
+                    case ThucDon.TimTpCoItLoaiCarAndMotocycleNhat:
+                        Console.WriteLine("Thành Phố có ít phương tiện Car và Motorcycle nhất là : ");
+                        dskh.XuatDSThanhPho(dskh.TimTpCoItLoaiCarAndMotocycleNhat());
+                        break;
+                    case ThucDon.XuatDSThanhPhoTheoLoaiPT:
+                        dskh.XuatDSThanhPho(dskh.DSPhuongTienThanhPho());
+                        break;
+                    case ThucDon.XuatDSTinhTheoLoaiPT:
+                        dskh.XuatDSTinh(dskh.DSPhuongTienTinh());
+                        break;
+                    case ThucDon.TimTinhCoNhieuCarNhat:
+                        Console.WriteLine("Tìm tỉnh có nhiều Car nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoNhieuCarNhat());
+                        break;
+                    case ThucDon.TimTinhCoItCarNhat:
+                        Console.WriteLine("Tìm tỉnh có ít Car nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoItCarNhat());
+                        break;
+                    case ThucDon.TimTinhCoNhieuMotorcycleNhat:
+                        Console.WriteLine("Tìm tỉnh có nhiều Motorcycle nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoNhieuMotorcycleNhat());
+                        break;
+                    case ThucDon.TimTinhCoItMotorcycleNhat:
+                        Console.WriteLine("Tìm tỉnh có ít Motorcycle nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoItMotorcycleNhat());
+                        break;
+                    case ThucDon.TimTinhCoNhieuCarAndMotorcyleNhat:
+                        Console.WriteLine("Tìm tỉnh có nhiều Car và Motorcycle nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoNhieuCarAndMotorcyleNhat());
+                        break;
+                    case ThucDon.TimTinhCoItCarAndMotorcyleNhat:
+                        Console.WriteLine("Tìm tỉnh có ít Car và Mortorcycle nhất : ");
+                        dskh.XuatDSTinh(dskh.TimTinhCoItCarAndMotorcyleNhat());
+                        break;
+                    case ThucDon.TimTinhKhongCoCar:
+                        Console.WriteLine("Tìm tỉnh không có Car : " + dskh.TimTinhKhongCoCar());
+                        break;
+                    case ThucDon.TimTinhKhongCoMotorcycle:
+                        Console.WriteLine("Tìm tỉnh không có Motorcycle là : " + dskh.TimTinhKhongCoMotorcycle());
+                        break;
+                    case ThucDon.TimTinhKhongCoCarAndMotorcycle:
+                        if(dskh.TimTinhKhongCoCarAndMotorcycle().Count() == 0)
+                        {
+                            Console.WriteLine("Không có tỉnh nào !");
+                        }
+                        else Console.WriteLine("Tìm tỉnh không có Car và Motorcycle là : " + dskh.TimTinhKhongCoCarAndMotorcycle());
+                        break;
+                    case ThucDon.TimThanhPhoKhongCoCar:
+                        Console.WriteLine("Tìm thành phố không có Car là : " + dskh.TimThanhPhoKhongCoCar());
+                        break;
+                    case ThucDon.TimThanhPhoKhongCoMotorcycle:
+                        Console.WriteLine("Tìm thành phố không có Motorcyle là : " + dskh.TimThanhPhoKhongCoMotorcycle());
+                        break;
+                    case ThucDon.TimThanhPhoKhongCoCarAndMotorcycle:
+                        if(dskh.TimThanhPhoKhongCoCarAndMotorcycle().Count() == 0)
+                        {
+                            Console.WriteLine("Không có thành phố nào !");
+                        }
+                        else Console.WriteLine("Tìm thành phố không có Car và Motorcycle là : " + dskh.TimThanhPhoKhongCoCarAndMotorcycle());
+                        break;
+                    case ThucDon.TimTheoTenTinh:
+                        Console.Write("Nhập tên Tỉnh cần tìm : ");
+                        string tentinh = Console.ReadLine();
+                        dskh.XuatDSTinh(dskh.TimTheoTenTinh(tentinh));
                         break;
                     default:
                     case ThucDon.Thoat:
@@ -817,6 +904,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
 
     public enum ThucDon
     {
+        #region PhuongTien
         NhapTuFile = 1,
         Xuat,
         DemSoLuongPhuongTienCar,
@@ -950,8 +1038,8 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         HienThiDSTheoTocDoLonNhat,
         HienThiDSTheoTocDoNhoNhat,
         XuatFile,
+        #endregion
 
-        // Mở rộng
         NhapFileDSKH,
         XuatDSKH,
         SapXepTangTheoDSKH,
@@ -968,10 +1056,28 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         TimDSKHSoHuuNhieuNhatTheoTenHang,
         TimDSKHSoHuuItNhatTheoTenHang,
         TimDSPhuongTienChuaCoChuSoHuu,
-
-
-
-
+        XuatDSThanhPhoTheoLoaiPT,
+        TimTpCoNhieuLoaiCarNhat,
+        TimTpCoItLoaiCarNhat,
+        TimTpCoNhieuLoaiMotorcycleNhat,
+        TimTpCoItLoaiMotorcycleNhat,
+        TimTpCoNhieuLoaiCarAndMotocycleNhat,
+        TimTpCoItLoaiCarAndMotocycleNhat,
+        XuatDSTinhTheoLoaiPT,
+        TimTinhCoNhieuCarNhat,
+        TimTinhCoItCarNhat,
+        TimTinhCoNhieuMotorcycleNhat,
+        TimTinhCoItMotorcycleNhat,
+        TimTinhCoNhieuCarAndMotorcyleNhat,
+        TimTinhCoItCarAndMotorcyleNhat,
+        TimTinhKhongCoCar,
+        TimTinhKhongCoMotorcycle,
+        TimTinhKhongCoCarAndMotorcycle,
+        TimThanhPhoKhongCoCar,
+        TimThanhPhoKhongCoMotorcycle,
+        TimThanhPhoKhongCoCarAndMotorcycle,
+        TimTheoTenTinh,
+        
         Thoat = 0
     }
 }

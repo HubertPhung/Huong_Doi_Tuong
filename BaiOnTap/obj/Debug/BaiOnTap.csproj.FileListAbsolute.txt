@@ -1,0 +1,8 @@
+C:\Users\phung\Downloads\BaiOnTap\obj\Debug\BaiOnTap.csproj.AssemblyReference.cache
+C:\Users\phung\Downloads\BaiOnTap\obj\Debug\BaiOnTap.csproj.CoreCompileInputs.cache
+C:\Users\phung\Downloads\BaiOnTap\bin\Debug\dsanpham.txt
+C:\Users\phung\Downloads\BaiOnTap\bin\Debug\BaiOnTap.exe.config
+C:\Users\phung\Downloads\BaiOnTap\bin\Debug\BaiOnTap.exe
+C:\Users\phung\Downloads\BaiOnTap\bin\Debug\BaiOnTap.pdb
+C:\Users\phung\Downloads\BaiOnTap\obj\Debug\BaiOnTap.exe
+C:\Users\phung\Downloads\BaiOnTap\obj\Debug\BaiOnTap.pdb

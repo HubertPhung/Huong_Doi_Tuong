@@ -109,7 +109,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             Console.WriteLine(this);
         }
 
-        // Tìm kiếm
+        #region Tìm kiếm
         public int TimKiemMin_Max(TimKiemMaxMin timKiem, LoaiDieuKien loaidk)
         {
             if (loaidk is LoaiDieuKien.Ten)
@@ -168,9 +168,9 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
             return 0;
         }
+        #endregion
 
-
-        //6.	Đếm số lượng theo loại kết hợp
+        #region 6.Đếm số lượng theo loại kết hợp
         public int DemSoLuongTheoLoaiPhuongTien(LoaiPhuongTien loai)
         {
             if (loai == LoaiPhuongTien.Car)
@@ -267,9 +267,9 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         // Kết Hợp : Loại Phương Tiện và Loại Điều Kiện
         // Kết Hợp : Loại Phương Tiện và Loại So Sánh
         // Kết Hợp : Loại Phương Tiện , Loại So Sánh, Loại Điều Kiện
+        #endregion
 
-
-        //7.	Tìm tất cả phương tiện theo loại kết hợp
+        #region 7.Tìm tất cả phương tiện theo loại kết hợp
         // Loại Phương Tiện
         public DanhSachPhuongTien TimDSPhuongTien(LoaiPhuongTien loai)
         {
@@ -443,8 +443,8 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
             return kq;
         }
-
-        //8.	Tìm phương tiện theo loại phương tiện và có giá trị lớn nhất, nhỏ nhất loại điều kiện
+        #endregion
+        #region 8.Tìm phương tiện theo loại phương tiện và có giá trị lớn nhất, nhỏ nhất loại điều kiện
         public DanhSachPhuongTien TimPhuongTienMin_MaxTheoDieuKien(LoaiPhuongTien loaipt, LoaiDieuKien loaidk, LoaiSoSanh loaiss)
         {
             DanhSachPhuongTien kq = TimDSPhuongTien(loaipt);
@@ -470,6 +470,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
             }
             return kq;
         }
+        #endregion
         //9.	Tìm các Car có số chỗ ngồi cao nhất và Motocycle có tốc độ thấp nhất
         // Đã làm !
         //10.	Tìm các Car có số chỗ ngồi thấp nhất và Motocycle có tốc độ thấp nhất
@@ -477,7 +478,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         //11.	Tìm các Car có số chỗ ngồi thấp nhất và Motocycle có tốc độ cao nhất
         // Đã làm !
 
-        //12.	Sắp xếp theo loại kết hợp
+        #region 12.Sắp xếp theo loại kết hợp
         // Loại Phương Tiện
         public DanhSachPhuongTien SapXepLoaiPhuongTienTang()
         {
@@ -577,10 +578,11 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         }
         // Loại Phương Tiện Và Loại So Sánh
         // Loại Phương Tiện Và Loại So Sánh Và Loại Điều Kiện
+        #endregion
 
         //13.	Sắp sếp theo chiều tăng, giảm theo tên hoặc số chỗ ngồi hoặc tốc độ
-        
-        //14. Sắp sếp theo chiều tăng, giảm theo tên và số chỗ ngồi và tốc độ theo các trường hợp sau
+
+        #region 14. Sắp sếp theo chiều tăng, giảm theo tên và số chỗ ngồi và tốc độ theo các trường hợp sau
         //a.    Chiều dài tên tăng, số chỗ ngồi tăng, tốc độ tăng
         //(ví dụ 2 phương tiện có tên chiều dài bằng nhau thì phương tiện tiện nào có số chỗ ngồi lớn hơn sẽ ở trước)
         public DanhSachPhuongTien SXTenTang_SoChoNgoiTang_TocDoTang()
@@ -597,9 +599,9 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
         //c.    Chiều dài tên tăng, số chỗ ngồi giảm, tốc độ tăng
         //d.	Chiều dài tên giảm, số chỗ ngồi giảm, tốc độ tăng
         //e.	Chiều dài tên giảm, số chỗ ngồi giảm, tốc độ giảm
+        #endregion
 
-
-        // 15.	Xóa tất cả theo loại kết hợp
+        #region 15.	Xóa tất cả theo loại kết hợp
         // Loại Phương Tiện
         public void XoaTheoLoaiPhuongTien(LoaiPhuongTien loai)
         {
@@ -633,10 +635,10 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                 Xoa(x);
             }
         }
+        #endregion
 
 
-
-        // 16.  Gọi phương thức TangToc, GiamToc, DongCua, MoCua theo loại kết hợp
+        #region 16.Gọi phương thức TangToc, GiamToc, DongCua, MoCua theo loại kết hợp
         // Loại Phương Tiện
         // Hàm gọi TangToc cho tất cả các phương tiện là IMotorcycle
         public void TangTocMotorcycle(List<Vehicle> phuongtien)
@@ -711,14 +713,11 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                 }
             }
         }
-
-      
+        #endregion
 
         // 17.	Hiển thị danh sách theo loại kết hợp
 
-       
-
-        // 18.	Lưu tất cả các câu hiển thị ở trên xuống File
+        #region 18.Lưu tất cả các câu hiển thị ở trên xuống File
         public void XuatFile(string filename = "data.txt")
         {
             using (StreamWriter sw = new StreamWriter(filename))
@@ -736,7 +735,7 @@ namespace _2312585_PNHBo_Lab7_TinhKeThuaVaDaKeThua
                 }
             }
         }
-
+        #endregion
         //6.Tìm loại phương tiện chưa có khách hàng sở hữu.
 
         public DanhSachPhuongTien TimDSPhuongTienChuaCoChuSoHuu()

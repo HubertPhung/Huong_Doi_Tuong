@@ -1,0 +1,8 @@
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\bin\Debug\data.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\bin\Debug\2312585_PNHBo_BaiOnTap2.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\bin\Debug\2312585_PNHBo_BaiOnTap2.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\bin\Debug\2312585_PNHBo_BaiOnTap2.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\obj\Debug\2312585_PNHBo_BaiOnTap2.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\obj\Debug\2312585_PNHBo_BaiOnTap2.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\obj\Debug\2312585_PNHBo_BaiOnTap2.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap2\obj\Debug\2312585_PNHBo_BaiOnTap2.pdb

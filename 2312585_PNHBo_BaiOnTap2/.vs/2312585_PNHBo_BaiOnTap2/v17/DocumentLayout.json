@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|d:\\university\\nguy\u00EAn l\u00FD l\u1EADp tr\u00ECnh h\u0111t\\object oriented programming \u2013 oop\\2312585_pnhbo_baiontap2\\danhsachnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:danhsachnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\inguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:inguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\iquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:iquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\ikhanangquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:ikhanangquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\ibaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA09FE-8E32-4C31-968B-4A4CB8CF0EF9}|2312585_PNHBo_BaiOnTap2.csproj|solutionrelative:ibaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IQuanLyLuong.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IQuanLyLuong.cs",
+              "RelativeDocumentMoniker": "IQuanLyLuong.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IQuanLyLuong.cs",
+              "RelativeToolTip": "IQuanLyLuong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:25:54.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBaoCao.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IBaoCao.cs",
+              "RelativeDocumentMoniker": "IBaoCao.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IBaoCao.cs",
+              "RelativeToolTip": "IBaoCao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:26:19.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IKhaNangQuanLy.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IKhaNangQuanLy.cs",
+              "RelativeDocumentMoniker": "IKhaNangQuanLy.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\IKhaNangQuanLy.cs",
+              "RelativeToolTip": "IKhaNangQuanLy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:18:05.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "data.txt",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\data.txt",
+              "RelativeDocumentMoniker": "data.txt",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\data.txt",
+              "RelativeToolTip": "data.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-08T07:16:08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DanhSachNhanVien.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\DanhSachNhanVien.cs",
+              "RelativeDocumentMoniker": "DanhSachNhanVien.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\DanhSachNhanVien.cs",
+              "RelativeToolTip": "DanhSachNhanVien.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T07:07:39.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLy.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\QuanLy.cs",
+              "RelativeDocumentMoniker": "QuanLy.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\QuanLy.cs",
+              "RelativeToolTip": "QuanLy.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:04:44.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INhanVien.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\INhanVien.cs",
+              "RelativeDocumentMoniker": "INhanVien.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\INhanVien.cs",
+              "RelativeToolTip": "INhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:04:33.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INguoi.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\INguoi.cs",
+              "RelativeDocumentMoniker": "INguoi.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\INguoi.cs",
+              "RelativeToolTip": "INguoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:04:23.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\University\\Nguy\u00EAn L\u00FD L\u1EADp Tr\u00ECnh H\u0110T\\Object Oriented Programming \u2013 OOP\\2312585_PNHBo_BaiOnTap2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAAAPAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:03:18.179Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
