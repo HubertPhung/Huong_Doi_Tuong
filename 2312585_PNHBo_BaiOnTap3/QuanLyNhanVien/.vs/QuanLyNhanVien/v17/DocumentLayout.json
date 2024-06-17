@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|c:\\users\\phung\\downloads\\quanlynhanvien\\quanlynhanvien\\cacdscanthiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\cacdscanthiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\nhanvienkynang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\nhanvienkynang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\chinhanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\chinhanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\nhanvienkinang.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\nhanvienkinang.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\nhanvien.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\nhanvien.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\kinang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\kinang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\quanlynhanvien\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C17AA-02FC-4D3D-842C-79D777EC6512}|QuanLyNhanVien\\QuanLyNhanVien.csproj|solutionrelative:quanlynhanvien\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanVienKiNang.txt",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVienKiNang.txt",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\NhanVienKiNang.txt",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVienKiNang.txt",
+              "RelativeToolTip": "QuanLyNhanVien\\NhanVienKiNang.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-11T11:07:49.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacDsCanThiet.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\CacDsCanThiet.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\CacDsCanThiet.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\CacDsCanThiet.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\CacDsCanThiet.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAH4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhanVien.txt",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVien.txt",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\NhanVien.txt",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVien.txt",
+              "RelativeToolTip": "QuanLyNhanVien\\NhanVien.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-11T11:07:49.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienKyNang.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVienKyNang.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\NhanVienKyNang.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVienKyNang.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\NhanVienKyNang.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwB0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KiNang.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\KiNang.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\KiNang.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\KiNang.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\KiNang.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAABEPQwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiNhanh.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\ChiNhanh.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\ChiNhanh.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\ChiNhanh.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\ChiNhanh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVien.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\NhanVien.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\NhanVien.cs",
+              "ViewState": "AQIAAA0AAABA//////87wAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien\\Program.cs",
+              "ToolTip": "C:\\Users\\phung\\Downloads\\QuanLyNhanVien\\QuanLyNhanVien\\Program.cs",
+              "RelativeToolTip": "QuanLyNhanVien\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:07:49.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

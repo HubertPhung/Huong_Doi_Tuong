@@ -1,0 +1,44 @@
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe.config
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.pdb
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.AssemblyReference.cache
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.exe
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.pdb
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\ChiNhanh.txt
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\KiNang.txt
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVien.txt
+C:\Users\This\source\repos\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVienKiNang.txt
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\ChiNhanh.txt
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\KiNang.txt
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVien.txt
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVienKiNang.txt
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe.config
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.pdb
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.AssemblyReference.cache
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.exe
+C:\Users\phung\Downloads\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.pdb
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\ChiNhanh.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\KiNang.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVien.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVienKiNang.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe.config
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.pdb
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.AssemblyReference.cache
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.exe
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\ChiNhanh.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\KiNang.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVien.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\NhanVienKiNang.txt
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe.config
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.pdb
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.AssemblyReference.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.exe
+D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.pdb

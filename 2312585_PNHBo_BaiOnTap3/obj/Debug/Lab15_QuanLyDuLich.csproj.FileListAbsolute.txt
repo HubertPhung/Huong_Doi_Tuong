@@ -9,3 +9,14 @@ D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\bin\Debug\2312585_PNHBo_BaiOnTap3.pdb
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\obj\Debug\2312585_PNHBo_BaiOnTap3.exe
 D:\University\Nguyên Lý Lập Trình HĐT\Object Oriented Programming – OOP\2312585_PNHBo_BaiOnTap3\obj\Debug\2312585_PNHBo_BaiOnTap3.pdb
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\DsLich_TourDL.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\DsThanhPho.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\DsTour.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\DsTour_TP.txt
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\2312585_PNHBo_BaiOnTap3.exe.config
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\2312585_PNHBo_BaiOnTap3.exe
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\bin\Debug\2312585_PNHBo_BaiOnTap3.pdb
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\obj\Debug\Lab15_QuanLyDuLich.csproj.AssemblyReference.cache
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\obj\Debug\Lab15_QuanLyDuLich.csproj.CoreCompileInputs.cache
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\obj\Debug\2312585_PNHBo_BaiOnTap3.exe
+C:\Users\phung\Downloads\2312585_PNHBo_BaiOnTap3\obj\Debug\2312585_PNHBo_BaiOnTap3.pdb
